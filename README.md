@@ -1,9 +1,13 @@
 # ios-swiss-transit
-Alternative app for public transport in Switzerland. First ever iPad public transport app in 2013
+Alternative app for public transport in Switzerland. First ever iPad public transport app in 2012/2013
 
 
 https://github.com/alainfurter/ios-swiss-transit/assets/3966775/944a0dda-b255-43b9-9d55-cc34ce20710e
 
+<b>Original AppStore Text below</b>
+Publication: 2012
+
+-----------------------------------
 Swiss Transit is the best way to check out public transport connections in Switzerland. 
 
 This app is a must for everyone using public transport services in Switzerland. All requests for connections, timetables, departures and arrivals are in real-time. It is available for iPad and iPhone. 
@@ -46,5 +50,3 @@ Shows information about delays, cancelled journeys, etc.
 ☆ Integration in the Maps App ☆ 
 If an origin and / or destination is defined in the Maps app you can launch Swiss Transit directly from the Maps App and use it as routing provider for public transport connections 
 
-For iPhone / iPod Touch and iPad 
-Do you have an iPhone / iPod Touch and iPad? Swiss Transit is available for all three devices 
