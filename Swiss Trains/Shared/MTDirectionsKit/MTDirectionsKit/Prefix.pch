@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'MTDirectionsKit' target in the 'MTDirectionsKit' project
+//
+
+
+#if defined(DEBUG) || defined(CONFIGURATION_Debug)
+    #define MTD_DEBUG   YES
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MapKit/MapKit.h>
+    #import "MTDLogging.h"
+    #import "MTDWeak.h"
+    #import "MTDAssert.h"
+#endif

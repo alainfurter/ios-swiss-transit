@@ -1,0 +1,300 @@
+//
+//  DTBannerClipView.m
+//  GeoCorder
+//
+//  Created by Oliver Drobnik on 7/29/10.
+//  Copyright 2010 Drobnik.com. All rights reserved.
+//
+
+#import "DTBannerClipView.h"
+#import "DTBannerManagerConfig.h"
+
+@implementation DTBannerClipView
+
+
+- (id)initWithFrame:(CGRect)frame {
+    if ((self = [super initWithFrame:frame])) 
+	{
+		self.clipsToBounds = YES;
+		self.backgroundColor = [UIColor clearColor];
+		
+		self.userInteractionEnabled = NO;
+    }
+    return self;
+}
+
+// have all taps "go through" this view unless it's a subview
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
+{
+	UIView *view = [super hitTest:point withEvent:event];
+	
+	
+	if (CGRectContainsPoint(CGRectMake(0, 0, 280, 25), point))
+	{
+		return nil;
+	}
+	
+	if (view!=self)
+	{
+		return view;
+	}
+	
+	return nil;
+}
+
+- (void)addSubviewAtBottom:(UIView *)view
+{
+	view.frame = CGRectMake(view.frame.origin.x, self.bounds.size.height - view.bounds.size.height,
+							view.bounds.size.width, view.bounds.size.height);
+	[self addSubview:view];
+	
+#ifdef ADFREE_PURCHASE_ENABLED
+	self.purchaseButton.frame = CGRectMake(0, self.bounds.size.height - view.bounds.size.height-24, self.bounds.size.width, view.bounds.size.height + 24);
+	self.backgroundView.frame = CGRectInset(view.frame, 1, 1);
+	
+	if (!_slidingView)
+	{
+		_slidingView = [[UIView alloc] initWithFrame:self.bounds];
+	}
+	
+	self.activityIndicator.center = CGPointMake(304, 15);	
+	
+	[_slidingView addSubview:_backgroundView];
+	[_slidingView addSubview:purchaseButton];
+	[_slidingView addSubview:_activityIndicator];
+
+	[self insertSubview:_slidingView atIndex:0];
+	
+	// show or hide based on current setting
+	if (purchaseButtonVisible)
+	{
+		self.purchaseButton.alpha = 1;
+		self.backgroundView.alpha = 1;
+	}
+	else 
+	{
+		self.purchaseButton.alpha = 0;
+		self.backgroundView.alpha = 0;
+	}
+	
+	_slidingView.transform = CGAffineTransformIdentity;
+#endif
+}
+
+- (void)addSubviewOutsideAtBottom:(UIView *)view
+{
+	[self addSubviewAtBottom:view];
+	
+	// set transform to make it be outside
+	view.transform = CGAffineTransformMakeTranslation(0, view.bounds.size.height);
+	_slidingView.transform = CGAffineTransformMakeTranslation(0, view.bounds.size.height);
+}
+
+- (void) slideInDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+{
+	self.userInteractionEnabled = YES;
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerDidSlideIn" object:nil];
+}
+
+- (void) slideOutDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(id)context
+{
+	self.userInteractionEnabled = NO;
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerDidSlideOut" object:nil];
+
+	for (UIView *oneView in self.subviews)
+	{
+		if (context == oneView || !context)
+		{
+			if (oneView != purchaseButton && oneView != _backgroundView)
+			{
+				[oneView removeFromSuperview];
+			}
+		}
+	}	
+}
+
+- (void)slideInSubview:(UIView *)subview
+{
+	[self addSubviewOutsideAtBottom:subview];
+	
+	[UIView beginAnimations:nil context:(__bridge void *)subview];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(slideInDidStop:finished:context:)];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerWillSlideIn" object:nil];
+	
+	subview.transform = CGAffineTransformIdentity;
+	
+	_slidingView.transform = CGAffineTransformIdentity;
+	
+	[UIView commitAnimations];
+}
+
+- (void)slideOutSubview:(UIView *)subview
+{
+	[UIView beginAnimations:nil context:(__bridge void *)subview];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(slideOutDidStop:finished:context:)];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerWillSlideOut" object:nil];
+	
+	subview.transform = CGAffineTransformMakeTranslation(0, subview.bounds.size.height);
+	_slidingView.transform = CGAffineTransformMakeTranslation(0, subview.bounds.size.height);
+	
+	
+	[UIView commitAnimations];
+}
+
+
+- (void)slideInSubviews
+{
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(slideInDidStop:finished:context:)];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerWillSlideIn" object:nil];
+	
+	for (UIView *subview in self.subviews)
+	{
+		subview.transform = CGAffineTransformIdentity;
+	}
+	
+	_slidingView.transform = CGAffineTransformIdentity;
+	
+	
+	[UIView commitAnimations];
+	
+}
+
+- (void)slideOutSubviews
+{
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(slideOutDidStop:finished:context:)];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"BannerWillSlideOut" object:nil];
+	
+	for (UIView *subview in self.subviews)
+	{
+		subview.transform = CGAffineTransformMakeTranslation(0, self.bounds.size.height);
+	}
+	
+	_slidingView.transform = CGAffineTransformMakeTranslation(0, self.bounds.size.height);
+	
+	[UIView commitAnimations];
+}
+
+
+
+#pragma mark Properties
+- (void)setPurchaseButtonBusy:(BOOL)isBusy
+{
+	if (purchaseButtonBusy != isBusy)
+	{
+		purchaseButtonBusy = isBusy;
+		
+		
+		if (isBusy)
+		{
+			purchaseButton.enabled = NO;
+			[_activityIndicator startAnimating];
+		}
+		else 
+		{
+			purchaseButton.enabled = YES;
+			[_activityIndicator stopAnimating];
+		}
+	}
+}
+
+- (void)setPurchaseButtonVisible:(BOOL)visible animated:(BOOL)animated
+{
+	if (visible != purchaseButtonVisible)
+	{
+		purchaseButtonVisible = visible;
+		
+		if (animated)
+		{
+			[UIView beginAnimations:@"PurchaseFade" context:nil];
+			//[UIView setAnimationDuration:1];
+		}
+		
+		if (visible)
+		{
+			self.purchaseButton.alpha = 1;
+			self.backgroundView.alpha = 1;
+		}
+		else 
+		{
+			self.purchaseButton.alpha = 0;
+			self.backgroundView.alpha = 0;
+		}
+		
+		if (animated)
+		{
+			[UIView commitAnimations];
+		}
+	}
+}
+
+- (void)setPurchaseButtonVisible:(BOOL)visible
+{
+	[self setPurchaseButtonVisible:visible animated:NO];
+}
+
+- (UIButton *)purchaseButton
+{
+	if (!purchaseButton)
+	{
+		purchaseButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		
+		UIImage *unpressed = [UIImage imageNamed:@"DTBannerManager.bundle/xBatch_border_x_stretchable.png"];
+		UIImage *stretchableUnpressed = [unpressed stretchableImageWithLeftCapWidth:4 topCapHeight:30];
+		
+		UIImage *pressed = [UIImage imageNamed:@"DTBannerManager.bundle/xBatch_border_x_stretchable_pressed.png"];
+		UIImage *stretchablePressed = [pressed stretchableImageWithLeftCapWidth:4 topCapHeight:30];
+
+		UIImage *disabled = [UIImage imageNamed:@"DTBannerManager.bundle/xBatch_border_stretchable.png"];
+		UIImage *stretchableDisabled = [disabled stretchableImageWithLeftCapWidth:4 topCapHeight:30];
+
+		purchaseButton.adjustsImageWhenHighlighted = NO;
+		
+		[purchaseButton setBackgroundImage:stretchableUnpressed forState:UIControlStateNormal];
+		[purchaseButton setBackgroundImage:stretchablePressed forState:UIControlStateHighlighted];
+		[purchaseButton setBackgroundImage:stretchableDisabled forState:UIControlStateDisabled];
+	}
+	
+	return purchaseButton;
+}
+
+- (UIView *)backgroundView
+{
+	if (!_backgroundView)
+	{
+		_backgroundView = [[UIView alloc] initWithFrame:CGRectZero];
+		_backgroundView.backgroundColor =  [UIColor colorWithWhite:0 alpha:0.5];
+	}
+	
+	return _backgroundView;
+}
+
+- (UIActivityIndicatorView *)activityIndicator
+{
+	if (!_activityIndicator)
+	{
+		_activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+	}
+	
+	return _activityIndicator;
+}
+
+
+
+
+@synthesize backgroundView = _backgroundView;
+@synthesize purchaseButton;
+@synthesize activityIndicator = _activityIndicator;
+@synthesize purchaseButtonVisible;
+@synthesize purchaseButtonBusy;
+
+@end

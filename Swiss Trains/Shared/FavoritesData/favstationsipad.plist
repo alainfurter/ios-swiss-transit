@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Zürich Oerlikon</string>
+		<string>Zürich HB</string>
+		<string>Zürich Flughafen</string>
+		<string>Zug</string>
+		<string>Winterthur</string>
+		<string>Olten</string>
+		<string>Luzern</string>
+		<string>Lausanne</string>
+		<string>Genève-Aéroport</string>
+		<string>Genève</string>
+		<string>Bern</string>
+		<string>Basel SBB</string>
+		<string>Aarau</string>
+	</array>
+	<array>
+		<string>008503006#85</string>
+		<string>008503000#85</string>
+		<string>008503016#95</string>
+		<string>008502204#95</string>
+		<string>008506000#95</string>
+		<string>008500218#95</string>
+		<string>008505000#95</string>
+		<string>008501120#95</string>
+		<string>008501026#85</string>
+		<string>008501008#95</string>
+		<string>008507000#95</string>
+		<string>008500010#85</string>
+		<string>008502113#95</string>
+	</array>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+</array>
+</plist>

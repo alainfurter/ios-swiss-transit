@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<title>Rail traffic information</title>
+<description>SBB CFF FFS News-Feeds</description>
+<link>http://mct.sbb.ch/mct/en/betriebslage</link>
+<language>en-gb</language>
+<copyright>&#169; 2011 HaCon Ing. ges. mbH</copyright>
+<pubDate>Thu, 28 Feb 2013 00:06:00 +0100</pubDate>
+<image>
+<url>http://fahrplan.sbb.ch/img/ig-sbblogo.gif</url>
+<title>Rail traffic information</title>
+<link>http://mct.sbb.ch/mct/en/betriebslage</link>
+</image>
+<item>
+<title><![CDATA[Delay: ICN 548 St. Gallen - Zürich HB]]></title>
+<description><![CDATA[27.02.2013 - 28.02.2013 00:15<br/><br/>Delay: ICN 548 from St. Gallen departure 22:44 via Gossau SG 22:51 - Flawil 22:57 - Uzwil 23:02 - Wil SG 23:10 - Winterthur 23:28 - Zürich Flughafen 23:43 to Zürich HB arrival 23:53 will be leaving Winterthur 15 minutes late.<br/><br/> Reason: Track blocked by train ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720449&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 23:44:36 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720449</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">3</category>
+</item>
+<item>
+<title><![CDATA[Delay: ICN 545 Genève-Aéroport - St. Gallen]]></title>
+<description><![CDATA[27.02.2013 - 28.02.2013 01:00<br/><br/>Delay: ICN 545 from Genève-Aéroport departure 20:09 via Genève 20:18 - Yverdon-les-Bains 21:04 - Neuchâtel 21:24 - Biel/Bienne 21:46 - Olten 22:20 - Zürich HB 23:09 - Zürich Flughafen 23:22 - Winterthur 23:37 to St. Gallen arrival 00:18 will be leaving Zürich Flughafen 15 minutes late.<br/><br/> Reason: Track blocked by train ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720447&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 23:42:22 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720447</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">3</category>
+</item>
+<item>
+<title><![CDATA[Delay: IC 845 Bern - Romanshorn]]></title>
+<description><![CDATA[27.02.2013 - 28.02.2013 01:00<br/><br/>Delay: IC 845 from Bern departure 22:02 via Olten 22:30 - Zürich HB 23:07 - Zürich Flughafen 23:18 - Winterthur 23:35 - Frauenfeld 23:47 - Weinfelden 00:00 - Amriswil 00:11 to Romanshorn arrival 00:18 will be leaving Zürich Flughafen 15 minutes late.<br/><br/> Reason: Track blocked by train ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720446&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 23:41:02 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720446</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">3</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Konolfingen - Bowil (BLS)]]></title>
+<description><![CDATA[20.04.2013 - 22.04.2013 01:00<br/><br/>Construction work: Between Konolfingen and Bowil on the Bern - Langnau i.E. - Wolhusen - Luzern line, no train services are operating.<br/><br/> Long-distance trains RE Bern - Langnau i.E. - Wolhusen - Luzern are cancelled between Konolfingen and Langnau i.E..<br/><br/> Replacement bus services are operating Konolfingen - Langnau i.E..<br/><br/> The bus/train connections are not guaranteed in Konolfingen + Langnau i.E. (06:00-23:00).<br/> Please allow for approx. 30 minutes more travel time.<br/><br/> The bus/train connections are guaranteed in Langnau i.E. (23:05).<br/> Please allow for approx. 15 minutes more travel time.<br/><br/><br/> S-Bahn trains S2 Laupen - Bern - Langnau i.E. are cancelled between Bowil and Konolfingen.<br/><br/> Replacement bus services are operating Bowil - Konolfingen.<br/><br/> The bus/train connections are guaranteed in Bowil.<br/> Please allow for approx. 7 minutes more travel time.<br/><br/> The bus/train connections are not guaranteed in Konolfingen (06:00-20:30).<br/> Please allow for approx. 30 minutes more travel time.<br/><br/> The bus/train connections are guaranteed in Konolfingen (20:30-00:30).<br/> Please allow for approx. 5 minutes more travel time.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 20.04.2013 06:00 until 21.04.2013 close of services.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720440&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 19:36:09 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720440</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Rafz - Schaffhausen (SBB CFF FFS)]]></title>
+<description><![CDATA[02.04.2013 21:40 - 05.04.2013 01:30<br/><br/>Construction work: Between Rafz and Schaffhausen on the Zürich HB - Bülach - Schaffhausen line, no train services are operating.<br/><br/> Trains RE Zürich HB - Schaffhausen are cancelled between Rafz and Schaffhausen.<br/> S-Bahn trains S5 + S22 are cancelled between Rafz and Schaffhausen.<br/><br/> Replacement bus services are operating Rafz - Schaffhausen.<br/> The bus/train connections are guaranteed in Rafz.<br/> The bus/train connections are guaranteed in Schaffhausen.<br/> Please pay attention to the changed departure and arrival times.<br/> Please allow for approx. 20 minutes more travel time.<br/> The transportation of bicycles is restricted.<br/><br/> Duration of construction work from 02.04.2013 until 04.04.2013 from 21:50 until close of services.<br/><br/> The online timetable at www.sbb.ch will be changed.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716451&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 19:01:02 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716451</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Sonceboz-Sombeval - Reconvilier]]></title>
+<description><![CDATA[21.04.2013 23:30 - 26.04.2013 01:00<br/><br/>Construction work: Between Sonceboz-Sombeval and Reconvilier on the Sonceboz-Sombeval - Moutier line, no train services are operating.<br/><br/> Regional trains Sonceboz-Sombeval - Moutier are cancelled between Sonceboz-Sombeval and Reconvilier.<br/><br/> Replacement bus services are operating Sonceboz-Sombeval - Reconvilier.<br/> The train/bus connections are guaranteed.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 21.04.2013 until 25.04.2013 from 23:30 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720437&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 18:56:14 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720437</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Giswil - Brienz (zb)]]></title>
+<description><![CDATA[19.03.2013 22:45 - 22.03.2013 05:00<br/><br/>Construction work: Between Giswil and Brienz on the Luzern - Meiringen - Interlaken Ost line, no train services are operating.<br/><br/> Long-distance trains Luzern - Meiringen - Interlaken Ost are cancelled between Giswil and Brienz.<br/> Replacement bus services are operating Giswil - Brienz + Meiringen - Brienz.<br/> Passengers travelling from Giswil to Meiringen or vice versa travel via Brienz.<br/><br/> Regional trains Meiringen - Interlaken Ost are cancelled between Meiringen and Brienz.<br/> Replacement bus services are operating Meiringen - Brienz.<br/><br/> The train/bus connections are guaranteed.<br/> Please allow for a longer travelling time.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 19.03.2013 22:45 until 22.03.2013 05:00.<br/><br/> The online timetable at www.sbb.ch will be changed.<br/> ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720428&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 18:54:33 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720428</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: ICE 272 Zürich HB - Hamburg-Altona]]></title>
+<description><![CDATA[27.02.2013 16:30 - 28.02.2013 02:00<br/><br/>partly cancelled:<br/> ICE 272 from Zürich HB departure 17:00 via Basel SBB 18:13 - Basel Bad Bf 18:23 - Freiburg (Breisgau) Hbf 18:57 - Mannheim Hbf 20:32 - Frankfurt (Main) Hbf 21:13 - Hannover Hbf 00:05 - Celle 00:27 - Hamburg Hbf to Hamburg-Altona arrival 01:52 is cancelled between Zürich HB and Basel SBB.<br/><br/> A replacement service Zürich HB - Basel SBB will be operating on time.<br/><br/> Reason: Change to rolling stock at short notice ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720374&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 13:21:03 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720374</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Altstätten SG - Heerbrugg (SBB CFF FFS)]]></title>
+<description><![CDATA[15.03.2013 22:44 - 18.03.2013 01:00<br/><br/>Construction work: Between Altstätten SG and Heerbrugg on the Chur - St. Gallen line, no train services are operating.<br/><br/> Trains REX Chur - St. Gallen are cancelled between Altstätten SG and Heerbrugg.<br/> Trains S1 Altstätten SG - Wil SG are cancelled between Altstätten SG and Heerbrugg.<br/> Replacement bus services are operating Altstätten SG - Heerbrugg.<br/><br/> The bus/train connections are guaranteed in Altstätten SG. The bus/train connections are not guaranteed in Heerbrugg. Please allow for approx. 20 minutes more travel time.<br/><br/> Duration of construction work from 15.03.2013 22:45 until 17.03.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719863&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 12:40:14 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719863</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Palézieux - Payerne (SBB CFF FFS)]]></title>
+<description><![CDATA[22.03.2013 19:00 - 18.04.2013 01:00<br/><br/>Construction work: Between Palézieux and Payerne on the Lausanne - Payerne line, no train services are operating.<br/><br/> A replacement bus service is operating Palézieux - Moudon - Payerne.<br/><br/> A replacement bus service is operating Moudon - Palézieux - Lausanne.<br/><br/> Reason: Construction work <br/>- Duration of construction work from 22.03.2013 until 22.03.2013 from 19:00 until close of services. <br/>- Duration of construction work from 25.03.2013 until 27.03.2013 from 19:00 until close of services. <br/>- Duration of construction work from 02.04.2013 until 05.04.2013 from 19:00 until close of services. <br/>- Duration of construction work from 08.04.2013 until 12.04.2013 from 19:00 until close of services. <br/>- Duration of construction work from 15.04.2013 until 16.04.2013 from 19:00 until close of services.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><br/> <br/><a href="http://fahrplan.sbb.ch/him/1361955402100_0417 Horaire_BUS_PALEZIEUX_MOUDON.pdf">INFO BUS</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720340&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 10:48:09 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720340</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Ligerz ASM-ltb - Prêles (asm)]]></title>
+<description><![CDATA[15.04.2013 - 19.04.2013<br/><br/>Construction work:<br/> The funicular service Aare Seeland mobil AG between Ligerz ASM-ltb and Prêles is suspended.<br/><br/> Replacement bus services are operating Ligerz - Prêles.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 15.04.2013 until 19.04.2013 .<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720381&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 09:04:11 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720381</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Konolfingen - Bowil (BLS)]]></title>
+<description><![CDATA[11.03.2013 - 04.05.2013 01:00<br/><br/>Construction work: Between Konolfingen and Bowil on the Bern - Langnau i.E. line, no train services are operating.<br/><br/> Trains RE Bern - Langnau i.E. are cancelled between Konolfingen and Langnau i.E..<br/> Trains S 2 Bern - Langnau i.E. are cancelled between Konolfingen and Bowil.<br/><br/> Replacement bus services are operating Konolfingen - Bowil.<br/> Replacement bus services are operating Konolfingen - Langnau i.E..<br/> The train/bus connections are guaranteed.<br/> The transportation of bicycles and of wheel chairs is excluded.<br/> Please allow for a longer travelling time.<br/><br/> Duration of construction work from 11.03.2013 until 21.03.2013 from 23:15 until close of services.<br/> Duration of construction work from 22.04.2013 until 25.04.2013 from 23:15 until close of services.<br/> Duration of construction work from 29.04.2013 until 03.05.2013 from 23:15 until close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719329&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 08:15:21 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719329</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Uster - Schwerzenbach ZH (SBB CFF FFS)]]></title>
+<description><![CDATA[24.02.2013 21:40 - 22.03.2013 02:00<br/><br/>Construction work: Between Uster and Schwerzenbach ZH on the Wetzikon - Dübendorf line, only limited train services are operating.<br/><br/> S-Bahn trains S9 Uster - Zürich HB - Zug are cancelled between Uster and Schwerzenbach ZH.<br/> Passengers travelling from Uster to Schwerzenbach ZH - Zürich HB should take the S-Bahn trains S 5 / 14 .<br/><br/> Please allow for a longer travelling time.<br/><br/> Duration of construction work from 24.02.2013 until 28.02.2013 from 21:40 until close of services.<br/> Duration of construction work from 03.03.2013 until 07.03.2013 from 21:40 until close of services.<br/> Duration of construction work from 17.03.2013 until 21.03.2013 from 21:40 until close of services.<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720184&amp;hMap=false&amp;</link>
+<pubDate>Wed, 27 Feb 2013 06:52:43 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720184</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Auvernier - Noiraigue]]></title>
+<description><![CDATA[11.03.2013 22:30 - 13.03.2013 00:15<br/><br/>Construction work: Between Auvernier and Noiraigue on the Neuchâtel - Travers - Buttes line, no train services are operating. <br/><br/>Regional trains Neuchâtel - Buttes are cancelled between Neuchâtel and Noiraigue. <br/>The trains Neuchâtel - Buttes make an unscheduled stop in Colombier. <br/><br/>Replacement bus services are operating Colombier - Buttes + Noiraigue - Neuchâtel. <br/><br/>Passengers travelling from / to Champ-du-Moulin should take the minibus service to Rochefort and change in Rochefort onto the replacement bus service to Neuchâtel / Buttes. <br/><br/>The train/bus connections are guaranteed. <br/>Please allow for a longer travelling time. <br/><br/>Reason: Construction work <br/><br/>Duration of construction work from 11.03.2013 until 12.03.2013 from 22:30 until close of services. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720304&amp;hMap=false&amp;</link>
+<pubDate>Tue, 26 Feb 2013 13:48:19 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720304</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Stein-Säckingen - Laufenburg]]></title>
+<description><![CDATA[21.04.2013 23:15 - 02.05.2013 01:00<br/><br/>Construction work: Between Stein-Säckingen and Laufenburg on the Basel SBB - Laufenburg line, no train services are operating.<br/><br/> S-Bahn trains S1 Basel SBB - Laufenburg are cancelled between Stein-Säckingen and Laufenburg.<br/><br/> Replacement bus services are operating Stein-Säckingen - Laufenburg.<br/> The bus/train connections are guaranteed in Stein-Säckingen.<br/> Please allow for approx. 5 minutes more travel time.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 21.04.2013 until 25.04.2013 from 23:15 until close of services.<br/> Duration of construction work from 28.04.2013 until 01.05.2013 from 23:15 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720299&amp;hMap=false&amp;</link>
+<pubDate>Tue, 26 Feb 2013 13:29:12 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720299</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Aefligen - Burgdorf (BLS)]]></title>
+<description><![CDATA[08.04.2013 20:30 - 19.04.2013<br/><br/>Construction work: Between Aefligen and Burgdorf on the Solothurn - Burgdorf line, no train services are operating.<br/><br/> S-Bahn trains S44 Wiler - Burgdorf - Bern are cancelled between Aefligen and Burgdorf.<br/> Replacement bus services are operating Aefligen - Burgdorf.<br/> The train/bus connections are guaranteed.<br/> Please allow for approx. 10 minutes more travel time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 08.04.2013 until 12.04.2013 from 20:30 until close of services.<br/> Duration of construction work from 19.04.2013 20:30 until close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> <br/><a href="http://fahrplan.sbb.ch/him/1361875988738_0408-041_AEF-BDF_Übersicht.pdf">Info Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720286&amp;hMap=false&amp;</link>
+<pubDate>Tue, 26 Feb 2013 12:04:04 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720286</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Wiler - Burgdorf (BLS)]]></title>
+<description><![CDATA[09.04.2013 00:10 - 20.04.2013 01:00<br/><br/>Construction work: Between Wiler and Burgdorf on the Solothurn - Burgdorf line, no train services are operating.<br/><br/> S-Bahn trains S44 Wiler - Burgdorf - Bern are cancelled between Wiler and Burgdorf.<br/> Replacement bus services are operating Wiler - Burgdorf.<br/> The train/bus connections are guaranteed.<br/> Please allow for approx. 10 minutes more travel time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 09.04.2013 until 13.04.2013 from 00:15 until close of services.<br/> Duration of construction work from 20.04.2013 00:15 until close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> <br/><a href="http://fahrplan.sbb.ch/him/1361875204326_0408-0412_AEF-BDF_Plakat.pdf">Info Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720285&amp;hMap=false&amp;</link>
+<pubDate>Tue, 26 Feb 2013 12:01:58 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720285</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Disruption: Stein-Säckingen - Laufenburg (SBB CFF FFS)]]></title>
+<description><![CDATA[10.03.2013 23:15 - 14.03.2013 01:00<br/><br/>Disruption: Between Stein-Säckingen and Laufenburg, no train services are operating.<br/><br/> S-Bahn trains S2 Basel SBB - Laufenburg are cancelled between Stein-Säckingen and Laufenburg.<br/> Replacement bus services are operating Stein-Säckingen - Laufenburg - Stein-Säckingen.<br/> The train/bus connections are guaranteed.<br/><br/> Duration of construction work from 10.03.2013 until 14.03.2013 from 23:15 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=720197&amp;hMap=false&amp;</link>
+<pubDate>Mon, 25 Feb 2013 16:59:10 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage720197</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Schwerzenbach ZH - Uster (SBB CFF FFS)]]></title>
+<description><![CDATA[24.02.2013 21:40 - 22.03.2013 02:00<br/><br/>Construction work: Between Schwerzenbach ZH and Uster on the Dübendorf - Wetzikon line, only limited train services are operating.<br/><br/> S-Bahn trains S9 Zug - Zürich HB - Uster are cancelled between Schwerzenbach ZH and Uster.<br/> Replacement bus services are operating Schwerzenbach ZH - Nänikon-Greifensee - Uster.<br/> The bus/train connections are guaranteed in Schwerzenbach ZH.<br/><br/> Please allow for approx. 10 minutes more travel time.<br/><br/> Duration of construction work from 24.02.2013 until 28.02.2013 from 21:40 until close of services.<br/> Duration of construction work from 03.03.2013 until 07.03.2013 from 21:40 until close of services.<br/> Duration of construction work from 17.03.2013 until 21.03.2013 from 21:40 until close of services.<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><a href="http://fahrplan.sbb.ch/him/1361456479580_SCWE-NAEN  24.02.-07.03.pdf">Info</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719679&amp;hMap=false&amp;</link>
+<pubDate>Mon, 25 Feb 2013 11:11:01 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719679</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neubaustrecke (SBB CFF FFS)]]></title>
+<description><![CDATA[26.05.2013 00:01 - 02.12.2013 05:55<br/><br/>Construction work: Between Bern and Olten only limited train services are operating.<br/><br/>Engineering work on the new route section between Berne and Olten<br/><br/>As a result of maintenance work on the new route section between Berne and Olten  trains between Berne and Olten will be diverted via the older routes from 00:00 until 05:55. This will increase the journey time by approximately 12 minutes. Please note your connecting trains (and allow 30 minutes' extra travel time compared with the regular timetable).<br/><br/>The maintenance work will be conducted between 00:00 and 05:55 during the nights of:<br/>26./27.05.2013<br/>01./02.09.2013<br/>01./02.12.2013<br/> <br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station.<br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement.<br/> ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=713855&amp;hMap=false&amp;</link>
+<pubDate>Mon, 25 Feb 2013 10:40:36 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage713855</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: St. Margrethen - Bregenz (ÖBB)]]></title>
+<description><![CDATA[02.02.2013 - 22.03.2013<br/><br/>Construction work: Between St. Margrethen and Bregenz on the Zürich HB - München Hbf line, no train services are operating.<br/><br/> Trains EC Zürich HB - München Hbf are cancelled between Zürich HB and Bregenz.<br/> Replacement bus services are operating St. Gallen - Bregenz.<br/> Passengers travelling from Zürich HB to München Hbf via IC Zürich HB - St. Gallen, BUS St. Gallen - Bregenz, EC Bregenz - München Hbf.<br/> The bus/train connections are guaranteed in St.Gallen + Bregenz.<br/> Please allow for approx. 40 minutes more travel time.<br/><br/> S-Bahn trains S3 St. Margrethen - Bregenz are cancelled.<br/> Replacement bus services are operating St. Margrethen - Bregenz.<br/> Please allow for a longer travelling time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 02.02.2013 until 22.03.2013 .<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717439&amp;hMap=false&amp;</link>
+<pubDate>Mon, 25 Feb 2013 09:34:01 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717439</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Rafz - Jestetten (SBB CFF FFS)]]></title>
+<description><![CDATA[25.02.2013 23:50 - 21.06.2013 01:30<br/><br/>Construction work: Between Rafz and Jestetten on the Bülach - Schaffhausen line, no train services are operating. <br/><br/>Trains RE Zürich HB - Schaffhausen are cancelled between Rafz and Jestetten. <br/>S-Bahn trains S5 + S22 are cancelled between Rafz and Jestetten. <br/><br/>Replacement bus services are operating Rafz - Jestetten. <br/>The bus/train connections are guaranteed in Rafz and Jestetten. <br/>Please allow for a longer travelling time.<br/><br/>The transportation of bicycles is restricted. <br/><br/>Duration of construction work nights from:<br/>25./26.02.2013 - 28.2./01.03.2013<br/>04./05.03.2013 - 07./08.03.2013<br/>11./12.03.2013 - 13./14.03.2013<br/>24./25.03.2013<br/>08./09.04.2013 - 11./12.04.2013<br/>15./16.04.2013<br/>21./22.04.2013 - 25./26.04.2013<br/>12./13.05.2013 - 16./17.05.2013<br/>20./21.05.2013 - 23./24.05.2013<br/>26./27.05.2013 - 28./29.05.2013<br/>02./03.06.2013 - 06./07.06.2013<br/>09./10.06.2013 - 13./14.06.2013<br/>16./17.06.2013 - 20.06.2013 from 23:50 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station.<br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716456&amp;hMap=false&amp;</link>
+<pubDate>Mon, 25 Feb 2013 09:05:20 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716456</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Payerne - Grolley (SBB CFF FFS)]]></title>
+<description><![CDATA[25.02.2013 20:15 - 02.03.2013 01:00<br/><br/>Construction work: Between Payerne and Grolley on the Yverdon-les-Bains - Fribourg line, no train services are operating.<br/><br/> Trains R Yverdon-les-Bains - Friourg are cancelled between Payerne and Grolley.<br/> Replacement bus services are operating Payerne - Grolley.<br/> The bus/train connections are guaranteed in Payerne and Grolley.<br/> Please allow for approx. 5 minutes more travel time.<br/><br/> Duration of construction work from 25.02.2013 until 01.03.2013 from 20:30 until close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><a href="http://fahrplan.sbb.ch/him/1361300870437_0225PAY-GRO.pdf">INFO Grolley-Payerne</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718669&amp;hMap=false&amp;</link>
+<pubDate>Sun, 24 Feb 2013 12:12:37 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718669</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Stans - Dallenwil (zb)]]></title>
+<description><![CDATA[17.02.2013 20:45 - 19.03.2013 00:59<br/><br/>Construction work: Between Stans and Dallenwil on the Luzern - Engelberg line, no train services are operating. <br/><br/>Trains IR/S4 Luzern - Engelberg/Dallenwil are cancelled between Stans and Dallenwil.<br/>Replacement bus services are operating Stans - Dallenwil - Engelberg. <br/><br/>Duration of construction work from 17.02.2013 until 14.03.2013 from sunday to thursday from 20:45 until close of services.<br/> <br/>Duration of construction work from 17.03.2013 until 18.03.2013 from 20:45 until close of services. <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717738&amp;hMap=false&amp;</link>
+<pubDate>Sun, 24 Feb 2013 11:05:39 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717738</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Buchs SG - Altstätten SG (SBB CFF FFS)]]></title>
+<description><![CDATA[20.01.2013 22:10 - 11.07.2013 01:00<br/><br/>Construction work: Between Buchs SG and Altstätten SG on the Sargans - St.Gallen line, no train services are operating. <br/><br/>Trains are cancelled between Buchs SG and Altstätten SG. <br/>Replacement bus services are operating Buchs SG - Altstätten SG. <br/>The bus/train connections are guaranteed in Buchs SG and Altstätten SG. <br/>Please allow for approx. 20 minutes more travel time. <br/><br/>Passengers travelling from Au SG to Sargans should take the S-Bahn S 23077 23:33 to Sargans 00:22. <br/>The S 23077 St.Gallen 23:04 - Sargans 00:22 train makes an unscheduled stop in Au SG 23:33. <br/><br/>Duration of construction work nights sunday - thursday from 20.01.2013 until 07.03.2013 from 22:10 until close of services. <br/><br/>Duration of construction work nights sunday - thursday from 24.03.2013 until 06.06.2013 from 22:10 until close of services. <br/>Not the: 28.03., 31.03., 01.04., 08.05., 09.05., 19.05., 20.05. + 02.06.2013.<br/><br/><br/>Duration of construction work nights sunday - thursday from 01.07.2013 until 11.07.2013 from 22:10 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=714439&amp;hMap=false&amp;</link>
+<pubDate>Sun, 24 Feb 2013 09:31:18 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage714439</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Wädenswil - Samstagern (SOB)]]></title>
+<description><![CDATA[24.02.2013 20:45 - 02.03.2013 01:00<br/><br/>Construction work: Between Wädenswil and Samstagern on the Wädenswil - Einsiedeln line, no train services are operating.<br/><br/> Trains S13 Wädenswil - Einsiedeln are cancelled between Wädenswil and Samstagern.<br/> Replacement bus services are operating Wädenswil - Samstagern.<br/> Connections in Wädenswil are not guaranteed.<br/> The bus/train connections are not guaranteed in Samstagern.<br/> Please allow for a longer travelling time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 24.02.2013 until 01.03.2013 from 20:45 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716130&amp;hMap=false&amp;</link>
+<pubDate>Sat, 23 Feb 2013 14:35:29 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716130</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: EC 59 Basel SBB - Milano Centrale]]></title>
+<description><![CDATA[22.02.2013 - 01.03.2013 21:00<br/><br/>partly cancelled: EC 59 from Basel SBB departure 17:31 via Olten 17:59 - Bern 18:34 - Thun 18:54 - Spiez 19:05 - Visp 19:32 - Brig 19:44 - Domodossola (I) 20:17 - Gallarate 21:04 to Milano Centrale arrival 21:35 is cancelled between Basel SBB and Brig. <br/><br/>A replacement service Basel SBB - Brig will be operating on time. <br/><br/>Passengers travelling from Basel SBB to Domodossola, Gallarate, Milano Centrale change in Brig. <br/><br/>Reason: Event MUBA <br/><br/>Duration at 01.03.2013 <br/><br/>Please listen to the loudspeaker announcements in the train. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719757&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 22:53:46 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719757</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: EC 52 Milano Centrale - Basel SBB]]></title>
+<description><![CDATA[22.02.2013 - 01.03.2013 16:00<br/><br/>partly cancelled: EC 52 from Milano Centrale departure 11:25 via Stresa 12:21 - Domodossola (I) 12:48 - Brig 13:20 - Visp 13:28 - Spiez 13:54 - Thun 14:04 - Bern 14:34 - Olten 15:05 to Basel SBB arrival 15:29 is cancelled between Brig and Basel SBB. <br/><br/>A replacement service Brig - Basel SBB will be operating on time. <br/><br/>Passengers travelling from Milano Centrale to Visp, Spiez, Thun, Bern, Olten, Basel SBB change in Brig. <br/><br/>Reason: Event MUBA <br/><br/>Duration at 01.03.2013 <br/><br/>Please listen to the loudspeaker announcements in the train. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719756&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 22:52:16 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719756</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Construction work : Stein-Säckingen - Laufenburg (SBB CFF FFS)]]></title>
+<description><![CDATA[10.02.2013 23:15 - 01.03.2013 01:00<br/><br/>Construction work: Between Stein-Säckingen and Laufenburg, no train services are operating. <br/><br/>S-Bahn trains S1 Basel SBB - Laufenburg are cancelled between Stein-Säckingen and Laufenburg. <br/>Replacement bus services are operating Stein-Säckingen - Laufenburg - Stein-Säckingen. <br/>The train/bus/train connections are guaranteed. <br/><br/>Duration of construction work from:<br/>24.02.2013 - 28.02.2013 from 23:15 until close of services. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement.<br/><br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716209&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 22:21:44 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716209</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Matzingen - Frauenfeld (FW)]]></title>
+<description><![CDATA[10.02.2013 19:40 - 28.03.2013 01:00<br/><br/>Construction work: Between Matzingen and Frauenfeld on the Wil SG - Frauenfeld line, no train services are operating. <br/><br/>Regional trains Wil SG - Frauenfeld are cancelled between Matzingen and Frauenfeld. <br/>Replacement bus services are operating Matzingen - Frauenfeld. <br/>The train/bus connections are guaranteed. <br/><br/>Duration of construction work from:<br/>24. - 28.02.2013<br/>03. - 07.03.2013<br/>10. - 14.03.2013<br/>17. - 21.03.2013<br/>24. - 27.03.2013, from 19:40 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718442&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 22:20:15 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718442</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel - Les Geneveys-sur-Coffrane (SBB CFF FFS)]]></title>
+<description><![CDATA[04.03.2013 21:35 - 15.03.2013 00:30<br/><br/>Construction work: Between Neuchâtel and Les Geneveys-sur-Coffrane on the Neuchâtel - Le Locle line, no train services are operating.<br/><br/> Trains R Neuchâtel - Le Locle are cancelled between Neuchâtel and Les Geneveys-sur-Coffrane.<br/> A replacement bus service is operating Neuchâtel - Les Deurres - Corcelles-Peseux - Chambrelien - Montmollin-Montezillon - Les Geneveys-sur-Coffrane (régional).<br/> A replacement bus service is operating Neuchâtel - Les-Geneveys-sur-Coffrane (direct).<br/> The bus/train connections are guaranteed in Neuchâtel + Les Geneveys-sur-Coffrane.<br/><br/> Passengers travelling from La Chaux-de-Fonds to Montmollin-Montezillon, Chambrelien, Corcelles-Peseux, les Deurres via Bus direct (Les Geneveys-sur-Coffrane - Neuchâtel) + bus régional.<br/><br/> Please allow for a longer travelling time.<br/><br/> Duration of construction work from 04.03.2013 until 07.03.2013 from 21:35 until close of services.<br/> Duration of construction work from 11.03.2013 until 14.03.2013 from 21:35 until close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><a href="http://fahrplan.sbb.ch/him/1361301359434_0314 Neuchâtel - les Geneveys-sur-Coffrane suite.pdf">infoflyer</a><br/><a href="http://fahrplan.sbb.ch/him/1361301396452_0314 Neuchâtel - les Geneveys-sur-Coffrane.pdf">infoflyer suite</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719747&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 22:07:32 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719747</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Thurnen - Uetendorf (BLS)]]></title>
+<description><![CDATA[25.03.2013 21:30 - 27.03.2013 00:35<br/><br/>Construction work: Between Thurnen and Uetendorf on the Bern - Belp - Thun line, no train services are operating.<br/><br/> S-Bahn trains S3 Biel/Bienne - Bern - Belp - Thun are cancelled between Thurnen and Uetendorf.<br/> Replacement bus services are operating Thurnen - Uetendorf.<br/> The bus/train connections are guaranteed in Thurnen and Uetendorf.<br/> Please allow for approx. 5 minutes more travel time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 25.03.2013 until 26.03.2013 from 21:30 until 00:30 o'clock.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station. <br/><a href="http://fahrplan.sbb.ch/him/1361555704864_0325-0326 501308, mm, Ue-Thu (MiZ).pdf">Flyer</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719946&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 21:51:43 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719946</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Marin-Epagnier - Neuchâtel (BLS)]]></title>
+<description><![CDATA[04.03.2013 22:15 - 13.07.2013 01:15<br/><br/>Construction work: Between Marin-Epagnier and Neuchâtel on the Bern/Fribourg - Neuchâtel line, no train services are operating.<br/><br/> Trains R Fribourg - Neuchâtel are cancelled between Marin-Epagnier and Neuchâtel.<br/> Trains S5/S52 Bern - Neuchâtel are cancelled between Marin-Epagnier and Neuchâtel.<br/> Replacement bus services are operating Marin-Epagnier - St-Blaise-Lac - Neuchâtel.<br/> Connections are provided in Marin-Epagnier.<br/> Connections in Neuchâtel are not guaranteed.<br/> Please allow for a longer travelling time.<br/><br/> The transportation of bicycles and of wheel chairs is excluded.<br/><br/> Duration of construction work from 04.03.2013 until 28.03.2013 from 22:15 until close of services.<br/> Duration of construction work from 02.04.2013 until 05.04.2013 from 22:15 until close of services.<br/> Duration of construction work from 08.04.2013 until 08.05.2013 from 22:15 until close of services.<br/> Duration at 10.05.2013<br/> Duration of construction work from 13.05.2013 until 17.05.2013 from 22:15 until close of services.<br/> Duration of construction work from 21.05.2013 until 24.05.2013 from 22:15 until close of services.<br/> Duration of construction work from 27.05.2013 until 12.07.2013 from 22:15 until close of services.<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><a href="http://fahrplan.sbb.ch/him/1361402549475_0713 Marin-Epagnier - Neuchâtel D.pdf">infoflyer D</a><br/><a href="http://fahrplan.sbb.ch/him/1361402582170_0713 Marin-Epagnier - Neuchâtel F.pdf">infoflyer F</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719824&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 20:54:06 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719824</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Wädenswil - Samstagern (SOB)]]></title>
+<description><![CDATA[03.03.2013 20:45 - 16.03.2013 01:00<br/><br/>Construction work: Between Wädenswil and Samstagern on the Wädenswil - Einsiedeln line, no train services are operating.<br/><br/> Trains S13 Wädenswil - Einsiedeln are cancelled between Wädenswil and Samstagern.<br/> Replacement bus services are operating Wädenswil - Samstagern.<br/> Connections in Wädenswil are not guaranteed.<br/> The bus/train connections are not guaranteed in Samstagern.<br/> The transportation of bicycles is excluded.<br/><br/> Please allow for a longer travelling time.<br/><br/> Duration of construction work from 03.03.2013 until 08.03.2013 from 20:45 until close of services.<br/><br/> Duration of construction work from 10.03.2013 until 15.03.2013 from 20:45 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719947&amp;hMap=false&amp;</link>
+<pubDate>Fri, 22 Feb 2013 17:53:51 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719947</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Luzern - Luzern Verkehrshaus (SBB CFF FFS)]]></title>
+<description><![CDATA[14.07.2013 04:00 - 12.08.2013 04:00<br/><br/>Construction work: Between Luzern and Luzern Verkehrshaus on the Luzern - Küssnacht am Rigi - Arth-Goldau line, no train services are operating.<br/><br/> Long-distance trains IR Voralpen-Express Luzern - Romanshorn are cancelled between Luzern and Luzern Verkehrshaus.<br/> S-Bahn trains S3 Luzern - Brunnen are cancelled between Luzern and Luzern Verkehrshaus.<br/><br/> Replacement bus services are operating Luzern - Luzern Verkehrshaus.<br/><br/> Duration of construction work from 14.07.2013 until 11.08.2013 close of services.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719891&amp;hMap=false&amp;</link>
+<pubDate>Thu, 21 Feb 2013 17:13:07 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719891</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Schwerzenbach ZH - Uster (SBB CFF FFS)]]></title>
+<description><![CDATA[11.03.2013 21:00 - 16.03.2013 02:00<br/><br/>Construction work: Between Schwerzenbach ZH and Uster on the Dübendorf - Wetzikon line, only limited train services are operating.<br/><br/> S-Bahn trains S9 Zug - Zürich HB - Uster are cancelled between Schwerzenbach ZH and Uster.<br/> Replacement bus services are operating Schwerzenbach ZH - Nänikon-Greifensee - Uster.<br/> The bus/train connections are guaranteed in Schwerzenbach ZH.<br/><br/> Please allow for approx. 10 minutes more travel time.<br/><br/> Duration of construction work from 11.03.2013 until 15.03.2013 from 21:00 until close of services.<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719683&amp;hMap=false&amp;</link>
+<pubDate>Thu, 21 Feb 2013 16:54:20 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719683</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: (ICN 512)]]></title>
+<description><![CDATA[07.03.2013 06:00 - 17.03.2013<br/><br/>Travel advice: This train is crowded.<br/>Passengers to Zurich HB,are kindly requested to use the train, departure from Wil at 07:01 and departure from Winterhur at 07:23 to Zürich HB.<br/><br/>Reason: Event Motor Show <br/><a href="http://www.sbb.ch/content/dam/sbb/de/pdf/freizeit-ferien/veranstaltungen/messen/Fahrpl%C3%A4ne%20Auto-Salon%202013.pdf">Extrazüge Autosalon</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716654&amp;hMap=false&amp;</link>
+<pubDate>Tue, 19 Feb 2013 18:57:36 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716654</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: (ICN 1510)]]></title>
+<description><![CDATA[07.03.2013 06:00 - 17.03.2013<br/><br/>Travel advice: This train is crowded.<br/>Passengers to Genève-Aéroport are kindly requested to use the train 30510, departure from Zürich HB at 06:46<br/><br/>Reason: Event Motor Show <br/><a href="http://www.sbb.ch/content/dam/sbb/de/pdf/freizeit-ferien/veranstaltungen/messen/Fahrpl%C3%A4ne%20Auto-Salon%202013.pdf">Extrazüge Autosalon</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716646&amp;hMap=false&amp;</link>
+<pubDate>Tue, 19 Feb 2013 18:54:52 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716646</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: (IC 710)]]></title>
+<description><![CDATA[07.03.2013 06:00 - 17.03.2013<br/><br/>Travel advice: This train is crowded.<br/>Passengers to Genève-Aéroport are kindly requested to use the train 30710, departing from Zürich HB at 07:25.<br/><br/>Reason: Event Motor Show <br/><a href="http://www.sbb.ch/content/dam/sbb/de/pdf/freizeit-ferien/veranstaltungen/messen/Fahrpl%C3%A4ne Auto-Salon 2013.pdf">Zusatzzüge Autosalon</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716645&amp;hMap=false&amp;</link>
+<pubDate>Tue, 19 Feb 2013 18:49:32 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716645</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Le Noirmont - Les Bois (CJ)]]></title>
+<description><![CDATA[08.04.2013 05:00 - 13.04.2013<br/><br/>Construction work: Between Le Noirmont and Les Bois, no train services are operating.<br/><br/> Regional trains R Glovelier - La Chaux-de-Fonds are cancelled between Le Noirmont and Les Bois.<br/> Replacement bus services are operating Le Noirmont - Les Bois.<br/> The bus/train connections are guaranteed.<br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 08.04.2013 until 13.04.2013 close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719665&amp;hMap=false&amp;</link>
+<pubDate>Tue, 19 Feb 2013 18:15:33 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719665</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Pratteln - Brugg AG (SBB CFF FFS)]]></title>
+<description><![CDATA[07.04.2013 22:00 - 08.11.2013 02:00<br/><br/>Construction work: Between Pratteln and Brugg AG on the Basel SBB - Frick - Brugg AG line, no train services are operating. <br/><br/>Trains IR Basel SBB - Frick - Brugg AG - Zürich HB are cancelled between Basel SBB and Brugg AG. <br/>Replacement bus services are operating Basel SBB - Rheinfelden - Stein-Säckingen - Frick - Brugg AG. <br/>Please allow for approx. 10 - 20 minutes more travel time. <br/><br/>Passengers travelling from Basel SBB to Brugg AG, Baden + Zürich HB or vice versa travel via Olten. <br/><br/>Trains S1 Basel SBB - Laufenburg are cancelled between Pratteln and Laufenburg. <br/>Trains S1 Basel SBB - Frick ( - Brugg AG) are cancelled between Pratteln and Frick / Brugg AG. <br/>Replacement bus services are operating Pratteln - Laufenburg + Pratteln - Frick ( - Brugg AG). <br/>Please allow for approx. 10 - 30 minutes more travel time. <br/><br/>Duration of construction work from:<br/>07.- 11.04.2013<br/>26. - 30.05.2013<br/>18. - 22.08.2013<br/>03. - 07.11.2013, from 22:00 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station. <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719689&amp;hMap=false&amp;</link>
+<pubDate>Mon, 18 Feb 2013 21:09:00 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719689</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: IR 2121 Biel/Bienne - Konstanz]]></title>
+<description><![CDATA[25.02.2013 - 01.03.2013<br/><br/>partly cancelled: IR 2121 from Biel/Bienne departure 11:15 via Solothurn 11:33 - Olten 11:59 - Zürich HB 12:37 - Zürich Flughafen 12:48 - Winterthur 13:05 - Frauenfeld 13:17 - Weinfelden 13:30 to Konstanz arrival 13:54 is cancelled between Biel/Bienne and Zürich HB.<br/><br/> A replacement service Biel/Bienne - Zürich HB will be operating on time.<br/><br/> Reason: Change to rolling stock at short notice<br/><br/> Duration of from 25.02.2013 until 01.03.2013 . ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719638&amp;hMap=false&amp;</link>
+<pubDate>Mon, 18 Feb 2013 11:41:46 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719638</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: IR 2116 Konstanz - Biel/Bienne]]></title>
+<description><![CDATA[25.02.2013 - 01.03.2013<br/><br/>partly cancelled: IR 2116 from Konstanz departure 08:03 via Weinfelden 08:29 - Frauenfeld 08:42 - Winterthur 08:55 - Zürich Flughafen 09:10 - Zürich HB 09:30 - Olten 10:03 - Solothurn 10:28 to Biel/Bienne arrival 10:45 is cancelled between Zürich HB and Biel/Bienne.<br/><br/> A replacement service Zürich HB - Biel/Bienne will be operating on time.<br/><br/> Reason: Change to rolling stock at short notice<br/><br/> Duration of from 25.02.2013 until 01.03.2013 . ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719637&amp;hMap=false&amp;</link>
+<pubDate>Mon, 18 Feb 2013 11:39:46 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719637</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: TGV 9207 Paris-Gare de Lyon - Zürich HB (SNCF)]]></title>
+<description><![CDATA[06.04.2013 07:00 - 07.04.2013 13:00<br/><br/>Travel advice: TGV 9207 from Paris-Gare de Lyon departure 08:23 to Zürich HB arrival 12:26 will now be departing at 08:01. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719544&amp;hMap=false&amp;</link>
+<pubDate>Sun, 17 Feb 2013 18:00:36 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719544</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: TGV 9222 Zürich HB - Paris-Gare de Lyon (SNCF)]]></title>
+<description><![CDATA[06.04.2013 13:20 - 07.04.2013 18:00<br/><br/>Travel advice: TGV 9222 from Zürich HB departure 13:34 to Paris-Gare de Lyon arrival 17:37 will now be arriving at 17:45. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719568&amp;hMap=false&amp;</link>
+<pubDate>Sun, 17 Feb 2013 17:38:05 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719568</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: TGV 9206 Zürich HB - Paris-Gare de Lyon (SNCF)]]></title>
+<description><![CDATA[06.04.2013 07:00 - 07.04.2013 12:15<br/><br/>Construction work: TGV 9206 from Zürich HB departure 07:34 to Paris-Gare de Lyon arrival 11:37 will now be arriving at 11:45. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719570&amp;hMap=false&amp;</link>
+<pubDate>Sun, 17 Feb 2013 17:36:26 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719570</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: TGV 9215 Paris-Gare de Lyon - Zürich HB (SNCF)]]></title>
+<description><![CDATA[06.04.2013 13:15 - 07.04.2013 19:00<br/><br/>Travel advice: TGV 9215 from Paris-Gare de Lyon departure 14:23 to Zürich HB arrival 18:35 will now be departing at 14:15. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719567&amp;hMap=false&amp;</link>
+<pubDate>Sun, 17 Feb 2013 17:26:15 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719567</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: TGV 9210 Zürich HB - Paris-Gare de Lyon (SNCF)]]></title>
+<description><![CDATA[06.04.2013 09:00 - 07.04.2013 16:00<br/><br/>Travel advice: TGV 9210 from Zürich HB departure 09:34 to Paris-Gare de Lyon arrival 13:37 will now be departing at 10:15. <br/><br/>TGV 9210 from Zürich HB departure 10:15 to Paris-Gare de Lyon arrival 13:37 will now be arriving at 15:14.<br/><br/>A replacement service Zürich HB - Basel SBB will be operating on time. <br/><br/>Reason: Construction work<br/> <br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719545&amp;hMap=false&amp;</link>
+<pubDate>Sun, 17 Feb 2013 00:39:51 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719545</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Cancellation: TGV 9218 Zürich HB - Paris-Gare de Lyon (SNCF)]]></title>
+<description><![CDATA[06.04.2013 11:00 - 07.04.2013 16:00<br/><br/>Cancellation: TGV 9218 from Zürich HB departure 11:34 via Basel SBB 12:34 - Mulhouse Ville 12:55 - Belfort-Montbéliard TGV 13:20 to Paris-Gare de Lyon arrival 15:37 is cancelled. <br/><br/>Replacement train operating Basel SBB - Zürich HB. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719543&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 23:59:27 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719543</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Cancellation: TGV 9211 Paris-Gare de Lyon - Zürich HB (SNCF)]]></title>
+<description><![CDATA[06.04.2013 12:45 - 07.04.2013 15:00<br/><br/>Cancellation: TGV 9211 from Paris-Gare de Lyon departure 10:23 via Dijon Ville 12:01 - Mulhouse Ville 13:06 - Basel SBB 13:33 to Zürich HB arrival 14:26 is cancelled. <br/><br/>Replacement train operating Basel SBB - Zürich HB. <br/><br/>Reason: Construction work <br/><br/>Duration at 06. + 07.04.2013 <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719542&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 23:55:12 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719542</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel, La Coudre (FUNI) - Chaumont (TN)]]></title>
+<description><![CDATA[18.03.2013 05:00 - 28.03.2013<br/><br/>Construction work: The funicular service between Neuchâtel, La Coudre (FUNI) and Chaumont is suspended.<br/><br/> Replacement bus services are operating Neuchâtel, La Coudre - Chaumont.<br/> Please allow for a longer travelling time.<br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 18.03.2013 05:00 until 28.03.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716543&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 18:17:28 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716543</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel,Place Pury Littorail - Neuchâtel, Port-de-Serrières]]></title>
+<description><![CDATA[08.07.2013 05:00 - 25.07.2013<br/><br/>Construction work: The tram service 5 between Neuchâtel,Place Pury Littorail and Neuchâtel, Port-de-Serrières is suspended.<br/><br/> Replacement bus services are operating Neuchâtel, Place Pury - Colombier NE, Bas-des-Allées.<br/> Please pay attention to the changed departure and arrival times.<br/> Please allow for a longer travelling time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 08.07.2013 05:00 until 25.07.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716545&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 17:40:09 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716545</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel, Ecluse - Neuchâtel, Plan Funiculaire (TN)]]></title>
+<description><![CDATA[27.05.2013 05:00 - 07.06.2013<br/><br/>Construction work: The funicular service between Neuchâtel, Ecluse and Neuchâtel, Plan Funiculaire is suspended.<br/><br/> Passengers travelling from Neuchâtel, Ecluse to Neuchâtel, Plan via TN BUS 8/9.<br/><br/> Duration of construction work from 27.05.2013 05:00 until 07.06.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716544&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 17:33:39 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716544</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel-Gare - Neuchâtel-Université (TN)]]></title>
+<description><![CDATA[25.02.2013 05:00 - 21.10.2013 01:00<br/><br/>Construction work: The funicular service between Neuchâtel-Gare and Neuchâtel-Université is suspended.<br/><br/> Duration of construction work from 25.02.2013 05:00 until 14.04.2013 close of services.<br/> Duration of construction work from 07.10.2013 05:00 until 20.10.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716539&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 17:19:54 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716539</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Coppet - Genève - Genève - Lancy-Pont-Rouge (SBB CFF FFS)]]></title>
+<description><![CDATA[25.02.2013 21:00 - 07.03.2013 01:30<br/><br/>Construction work: Between Coppet - Genève and Genève - Lancy-Pont-Rouge only limited train services are operating. <br/><br/>S-Bahn trains Coppet - Genève - Lancy-Pont-Rouge are cancelled. <br/>Replacement bus services are operating Coppet - Genève. <br/>Passengers travelling from (Coppet) - Genève to Lancy-Pont-Rouge via Tram 15 (TPG). <br/>Please allow for approx. 20 (Coppet - Genève) + 15 (Genève - Lancy-Pont-Rouge) minutes more travel time. <br/>The train/bus connections are guaranteed in Coppet. <br/>The bus/train connections are not guaranteed in Coppet. <br/><br/>Duration of construction work from 25.02.2013 21:00 until 28.02.2013 close of services. <br/>Duration of construction work from 03.03.2013 21:00 until 06.03.2013 close of services. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station. <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719486&amp;hMap=false&amp;</link>
+<pubDate>Sat, 16 Feb 2013 11:53:44 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719486</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Giubiasco - Cadenazzo (SBB CFF FFS)]]></title>
+<description><![CDATA[09.03.2013 12:10 - 11.03.2013 04:00<br/><br/>Construction work: Between Giubiasco and Cadenazzo on the Bellinzona - Locarno / Luino line, no train services are operating.<br/><br/> Trains are cancelled between Giubiasco and Cadenazzo.<br/> Replacement bus services are operating Giubiasco - Cadenazzo.<br/> The bus/train connections are not guaranteed.<br/> Please allow for approx. 30 - 60 minutes more travel time.<br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 09.03.2013 12:10 until 10.03.2013 close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719469&amp;hMap=false&amp;</link>
+<pubDate>Fri, 15 Feb 2013 19:22:42 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719469</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Schwerzenbach ZH - Uster (SBB CFF FFS)]]></title>
+<description><![CDATA[08.03.2013 21:30 - 27.05.2013 02:00<br/><br/>Construction work: Between Schwerzenbach ZH and Uster on the Zürich HB - Wetzikon line, only limited train services are operating.<br/><br/> S-Bahn trains S9 Uster - Zürich HB - Zug are cancelled between Schwerzenbach ZH and Uster.<br/> Replacement bus services are operating Schwerzenbach ZH - Nänikon-Greifensee - Uster.<br/><br/> S-Bahn trains S 15 Affoltern am Albis - Zürich HB - Uster - Rapperswil are cancelled between Zürich Stadelhofen and Uster.<br/> Passengers from S15 (Zürich Stadelhofen) to Uster or vice versa travel via S5.<br/><br/> Duration of from 08.03.2013 21:30 until 10.03.2013 close of services.<br/> Duration of from 03.05.2013 21:30 until 05.05.2013 close of services.<br/> Duration of from 24.05.2013 21:30 until 26.05.2013 close of services.<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718449&amp;hMap=false&amp;</link>
+<pubDate>Wed, 13 Feb 2013 15:22:09 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718449</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Thurnen - Uetendorf (BLS)]]></title>
+<description><![CDATA[13.04.2013 05:00 - 05.05.2013 03:30<br/><br/>Construction work: Between Thurnen and Uetendorf on the Bern - Belp - Thun line, no train services are operating.<br/><br/> S-Bahn trains S3/S4/S44 are cancelled between Thurnen and Uetendorf.<br/> Replacement bus services are operating Thurnen - Uetendorf.<br/> The bus/train connections are guaranteed in Thurnen + Uetendorf.<br/> Connections in Thun are not guaranteed.<br/> Please allow for a longer travelling time.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 13.04.2013 05:00 until 14.04.2013 close of services.<br/> Duration of construction work from 27.04.2013 05:00 until 28.04.2013 close of services.<br/> Duration of construction work from 04.05.2013 05:00 until 05.05.2013 close of services.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719279&amp;hMap=false&amp;</link>
+<pubDate>Wed, 13 Feb 2013 14:28:47 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719279</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Sonceboz-Sombeval - Tavannes (SBB CFF FFS)]]></title>
+<description><![CDATA[24.02.2013 22:00 - 12.04.2013 05:00<br/><br/>Construction work:<br/> Between Sonceboz-Sombeval and Tavannes, no train services are operating.<br/><br/> Regional trains R Sonceboz-Sombeval - Moutier are cancelled between Sonceboz-Sombeval and Tavannes.<br/><br/> Replacement bus services are operating Biel/Bienne - Sonceboz-Sombeval - Tavannes.<br/> The bus/train connections are guaranteed in Tavannes.<br/><br/> Duration of construction work from 24.02.2013 until 01.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 03.03.2013 until 08.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 10.03.2013 until 15.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 17.03.2013 until 22.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 24.03.2013 until 28.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 07.04.2013 until 12.04.2013 from 23:20 until 05:00 o'clock. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719249&amp;hMap=false&amp;</link>
+<pubDate>Wed, 13 Feb 2013 07:23:02 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719249</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Sonceboz-Sombeval - La Chaux-de-Fonds (SBB CFF FFS)]]></title>
+<description><![CDATA[24.02.2013 22:00 - 12.04.2013 05:00<br/><br/>Construction work:<br/> Between Sonceboz-Sombeval and La Chaux-de-Fonds on the Biel/Bienne - La Chaux-de-Fonds line, no train services are operating.<br/><br/> Regional trains R Biel/Bienne - La Chaux-de-Fonds are cancelled between Biel/Bienne and Sonceboz-Sombeval.<br/><br/> Replacement bus services are operating Biel/Bienne - Sonceboz-Sombeval.<br/> The bus/train connections are guaranteed in Sonceboz-Sombeval.<br/><br/> Reason: Construction work<br/><br/> Duration of construction work from 24.02.2013 until 01.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 03.03.2013 until 08.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 10.03.2013 until 15.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 17.03.2013 until 22.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 24.03.2013 until 28.03.2013 from 23:20 until 05:00 o'clock.<br/> Duration of construction work from 07.04.2013 until 12.04.2013 from 23:20 until 05:00 o'clock. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719146&amp;hMap=false&amp;</link>
+<pubDate>Wed, 13 Feb 2013 07:18:54 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719146</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Wabern GB - Gurten Kulm]]></title>
+<description><![CDATA[03.03.2013 18:30 - 08.03.2013<br/><br/>Construction work: The funicular service between Wabern GB and Gurten Kulm is suspended.<br/><br/> Duration of construction work from 03.03.2013 18:30 until 08.03.2013 close of services. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=719109&amp;hMap=false&amp;</link>
+<pubDate>Tue, 12 Feb 2013 08:36:33 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage719109</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Singen (Hohentwiel) - Rottweil (DB)]]></title>
+<description><![CDATA[15.03.2013 18:00 - 28.04.2013 14:00<br/><br/>Construction work: Between Singen (Hohentwiel) and Rottweil on the Zürich HB - Stuttgart Hbf line, no train services are operating.<br/><br/> Intercity trains Zürich HB - Stuttgart Hbf are cancelled between Singen (Hohentwiel) and Rottweil.<br/> Replacement bus services are operating Singen (Hohentwiel) - Rottweil.<br/> Please allow for approx. 55 minutes more travel time.<br/> Connections in D + CH are not guaranteed.<br/><br/> Passengers travelling from Zürich HB to Stuttgart HB or vice versa travel via Basel SBB - Karlsruhe Hbf.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 15.03.2013 20:00 until 17.03.2013 12:00.<br/> Duration of construction work from 22.03.2013 20:00 until 24.03.2013 12:00.<br/> Duration of construction work from 05.04.2013 20:00 until 07.04.2013 12:00.<br/> Duration of construction work from 12.04.2013 20:00 until 14.04.2013 12:00.<br/> Duration of construction work from 19.04.2013 20:00 until 21.04.2013 12:00.<br/> Duration of construction work from 26.04.2013 20:00 until 28.04.2013 12:00.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718893&amp;hMap=false&amp;</link>
+<pubDate>Mon, 11 Feb 2013 00:10:01 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718893</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Les Avants (funi) - Sonloup (MVR)]]></title>
+<description><![CDATA[22.12.2012 17:20 - 31.03.2013 08:00<br/><br/>Construction work: The funicular service MVR, Montreux Goldenpass between Les Avants (funi) and Sonloup is limited. <br/><br/>Duration of construction work until 31.03.2013 from 17:20 until 08:00 o'clock. <br/><br/>Further information available on our website: www.goldenpass.ch <br/><br/>The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=715100&amp;hMap=false&amp;</link>
+<pubDate>Fri, 08 Feb 2013 10:57:02 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage715100</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[partly cancelled: S3 21301 Luzern - Schwyz - Erstfeld]]></title>
+<description><![CDATA[11.03.2013 00:30 - 02:00<br/><br/>partly cancelled:<br/> S3 21301 from Luzern departure 00:32 to Schwyz - Erstfeld arrival 01:10 is cancelled between Schwyz and Erstfeld.<br/><br/> A replacement bus service is operating Schwyz - Erstfeld.<br/> The train/bus connections are guaranteed.<br/><br/> Passengers to Sisikon are kindly requested to allow for approx. 10 minutes more travel time.<br/> Passengers to Flüelen are kindly requested to allow for approx. 15 minutes more travel time.<br/> Passengers to Altdorf are kindly requested to allow for approx. 20 minutes more travel time.<br/> Passengers to Erstfeld are kindly requested to allow for approx. 25 minutes more travel time.<br/><br/> Duration at 11.03.2013<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> The online timetable at www.sbb.ch has been changed. <br/><a href="http://fahrplan.sbb.ch/him/1360003178073_0311 SCHW_ER_Zug21301.pdf">Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718366&amp;hMap=false&amp;</link>
+<pubDate>Thu, 07 Feb 2013 12:29:40 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718366</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Uster - Schwerzenbach ZH (SBB CFF FFS)]]></title>
+<description><![CDATA[27.05.2013 21:00 - 05.07.2013 02:00<br/><br/>Construction work: Between Uster and Schwerzenbach ZH on the Wetzikon - Dübendorf line, only limited train services are operating. <br/><br/>S-Bahn trains S14 Hinwil - Zürich HB are cancelled between Uster and Schwerzenbach ZH. <br/>Passengers from S14 ( Uster) to Schwerzenbach ZH- Zürich HB should take the S-Bahn trains S 9 Zürich HB- Zug. <br/><br/>Duration of construction work from 27.05.2013 21:00 until close of services. <br/>Duration of construction work from 03.06.2013 until 06.06.2013 from 21:00 until close of services. <br/>Duration of construction work  09.06.2013, 01.07.2013 + 04.07.2013 from 21:00 until close of services. <br/><br/>Please note the information at the station. <br/>Please listen to the loudspeaker announcements in the train. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718577&amp;hMap=false&amp;</link>
+<pubDate>Thu, 07 Feb 2013 11:25:51 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718577</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Schwerzenbach ZH - Uster (SBB CFF FFS)]]></title>
+<description><![CDATA[27.05.2013 21:00 - 05.07.2013 02:00<br/><br/>Construction work: Between Schwerzenbach ZH and Uster on the Dübendorf - Wetzikon line, only limited train services are operating. <br/><br/>S-Bahn trains S9 Zug - Uster are cancelled between Schwerzenbach ZH and Uster. <br/>Replacement bus services are operating Schwerzenbach ZH - Nänikon-Greifensee-Uster. <br/><br/>Duration of construction work from 27.05.2013 21:00 until close of services. <br/>Duration of construction work from 03.06.2013 until 06.06.2013 from 21:00 until close of services. <br/>Duration of construction work 09.06.2013, 01.07.2013 + 04.07.2013 from 21:00 until close of services. <br/><br/>Please note the information at the station. <br/>Please listen to the loudspeaker announcements in the train. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718450&amp;hMap=false&amp;</link>
+<pubDate>Thu, 07 Feb 2013 11:06:57 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718450</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Giswil (zb)]]></title>
+<description><![CDATA[17.02.2013 23:40 - 22.03.2013 01:30<br/><br/>Construction work: Train services at Giswil station are suspended. <br/><br/>S-Bahn trains S5 Luzern - Giswil are cancelled between Sarnen and Giswil. <br/>Replacement bus services are operating (Dillier Bus AG) Sarnen - Giswil . <br/>The train/bus connections are guaranteed. <br/><br/>Duration of construction work Sunday - Thursday from: 17.02.2013 until 21.03.2013 from 23:50 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717754&amp;hMap=false&amp;</link>
+<pubDate>Thu, 07 Feb 2013 07:14:42 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717754</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Wiler - Aefligen (BLS)]]></title>
+<description><![CDATA[28.02.2013 21:00 - 01.03.2013 01:00<br/><br/>Construction work: Between Wiler and Aefligen on the Solothurn - Burgdorf line, no train services are operating. <br/><br/>S-Bahn trains S44 Solothurn - Burgdorf - Bern are cancelled between Wiler and Aefligen. <br/>Replacement bus services are operating Wiler - Utzenstorf - Aefligen. <br/>Please allow for approx. 10 minutes more travel time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work the 28.02.2013 from 21:00 until close of services. <br/><br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station. <br/><a href="http://fahrplan.sbb.ch/him/1360155568642_0228-0301 Bau Wiler - Aefligen.pdf">Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718507&amp;hMap=false&amp;</link>
+<pubDate>Thu, 07 Feb 2013 07:13:16 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718507</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Buchs SG - Feldkirch (ÖBB)]]></title>
+<description><![CDATA[03.06.2013 - 28.06.2013<br/><br/>Construction work: Between Buchs SG and Feldkirch on the Zürich HB - Innsbruck Hbf - Wien Westbahnhof line, no train services are operating.<br/><br/> International trains RJ Zürich HB - Wien Westbahnhof are cancelled between Zürich HB and Feldkirch.<br/> The international trains EN Zürich HB - Wien Westbahnhof - Budapest-Keleti/Graz Hbf - Beograd are being rerouted.<br/><br/> Special trains operating Zürich HB - Sargans.<br/> Replacement bus services are operating Sargans/Buchs SG - Feldkirch.<br/> The transportation of bicycles is excluded.<br/> Please allow for approx. 60 minutes more travel time.<br/><br/> Regional trains Buchs SG - Feldkirch are cancelled.<br/> Replacement bus services are operating .<br/> The transportation of bicycles is excluded.<br/> Please allow for approx. 20 minutes more travel time.<br/><br/> Duration of construction work from 03.06.2013 until 28.06.2013 .<br/><br/> Please note the information at the station.<br/> Please listen to the loudspeaker announcements in the train.<br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718013&amp;hMap=false&amp;</link>
+<pubDate>Tue, 05 Feb 2013 09:44:23 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718013</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neuchâtel - Noiraigue (SBB CFF FFS)]]></title>
+<description><![CDATA[11.03.2013 22:30 - 13.03.2013 01:00<br/><br/>Construction work: Between Neuchâtel and Noiraigue on the Neuchâtel - Buttes line, no train services are operating.<br/><br/> Trains R Neuchâtel - Fleurier (- Buttes) are cancelled between Neuchâtel and Noiraigue.<br/> Special trains operating Neuchâtel xx:40 - Colombier xx:49.<br/> Replacement bus services are operating Colombier - Noiraigue ( - Buttes).<br/> Please allow for approx. 15-20 minutes more travel time.<br/><br/> Trains Buttes - Neuchâtel are cancelled between Noiraigue and Neuchâtel.<br/> Replacement bus services are operating Noiraigue - Neuchâtel.<br/> Please allow for approx. 20 minutes more travel time.<br/> Passengers travelling from Neuchâtel / Buttes to Champ-du-Moulin change in Rochefort, église.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of null from 11.03.2013 until 12.03.2013 from 22:30 until close of services.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=718128&amp;hMap=false&amp;</link>
+<pubDate>Mon, 04 Feb 2013 06:56:00 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage718128</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: Steg im Tösstal, Bahnhof  (ZVV)]]></title>
+<description><![CDATA[29.01.2013 12:00 - 31.03.2013 03:00<br/><br/>Travel advice: The station Steg im Tösstal, Bahnhof is moved.<br/><br/>Duration of expected until 31.03.2013 . <br/><a href="http://fahrplan.sbb.ch/him/1359459580231_0331 Steg im Tösstal, Bahnhof Haltestelle verschoben.pdf">flyer</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717824&amp;hMap=false&amp;</link>
+<pubDate>Tue, 29 Jan 2013 19:41:46 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717824</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Kreuzlingen - Konstanz (THURBO)]]></title>
+<description><![CDATA[27.04.2013 23:00 - 28.04.2013 06:00<br/><br/>Construction work: Between Kreuzlingen and Konstanz, no train services are operating. <br/><br/>Replacement bus services are operating Kreuzlingen - Konstanz - Kreuzlingen. <br/>The train/bus/train connections are guaranteed. <br/><br/>Duration of construction work from 27.04.2013 23:00 until 28.04.2013 06:00. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717814&amp;hMap=false&amp;</link>
+<pubDate>Tue, 29 Jan 2013 19:38:51 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717814</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Häggenschwil-Winden - Wittenbach (SOB)]]></title>
+<description><![CDATA[15.03.2013 22:00 - 17.03.2013<br/><br/>Construction work: Between Häggenschwil-Winden and Wittenbach on the Romanshorn - St.Gallen line, no train services are operating.<br/><br/> Replacement bus services are operating Häggenschwil-Winden - Wittenbach - Häggenschwil-Winden.<br/> Replacement bus services are operating Häggenschwil-Winden - Roggwil - Berg - Häggenschwil-Winden.<br/> Replacement bus services are operating Roggwil - Berg - Wittenbach - Roggwil - Berg.<br/> The bus/train connections are guaranteed in Häggenschwil-Winden + Wittenbach.<br/><br/> The transportation of bicycles is excluded.<br/><br/> Duration of construction work from 15.03.2013 22:00 until 17.03.2013 close of services.<br/><br/> Please listen to the loudspeaker announcements in the train.<br/> Please note the information at the station.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717162&amp;hMap=false&amp;</link>
+<pubDate>Mon, 28 Jan 2013 15:24:43 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717162</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neubaustrecke (SBB CFF FFS)]]></title>
+<description><![CDATA[24.03.2013 21:59 - 08.12.2013 05:55<br/><br/>Construction work: Between Bern and Olten only limited train services are operating.<br/><br/>Engineering work on the new route section between Berne and Olten<br/><br/>As a result of maintenance work on the new route section between Berne and Olten  trains between Berne and Olten will be diverted via the older routes from 22:30 until 05:55. This will increase the journey time by approximately 12 minutes. Please note your connecting trains (and allow 30 minutes' extra travel time compared with the regular timetable).<br/><br/>The maintenance work will be conducted between 22:30 and 05:55 during the nights of:<br/>24./25.03.2013<br/>02./03.06.2013 - 05./06.06.2013<br/>10./11.06.2013 - 12./13.06.2013<br/>11./12.08.2013<br/>29./30.09.2013 - 02./03.10.2013<br/>06./07.10.2013 - 09./10.10.2013 <br/>08./09.12.2013<br/> <br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station.<br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=713851&amp;hMap=false&amp;</link>
+<pubDate>Mon, 28 Jan 2013 13:01:52 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage713851</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neubaustrecke (SBB CFF FFS)]]></title>
+<description><![CDATA[08.06.2013 22:00 - 10.06.2013 05:55<br/><br/>Construction work: Between Bern and Olten only limited train services are operating.<br/><br/>Engineering work on the new route section between Berne and Olten<br/><br/>As a result of maintenance work on the new route section between Berne and Olten  trains between Berne and Olten will be diverted via the older routes from 22:30 until 05:55. This will increase the journey time by approximately 12 minutes. Please note your connecting trains (and allow 30 minutes' extra travel time compared with the regular timetable).<br/><br/>The maintenance work will be from the: <br/>08.06.2013 22:30 - 10.06.2013 05:55.<br/> <br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station.<br/><br/>The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=715356&amp;hMap=false&amp;</link>
+<pubDate>Mon, 28 Jan 2013 12:52:27 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage715356</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Neubaustrecke (SBB CFF FFS)]]></title>
+<description><![CDATA[26.10.2013 17:30 - 28.10.2013 05:55<br/><br/>Construction work: Between Bern and Olten only limited train services are operating.<br/><br/>Engineering work on the new route section between Berne and Olten<br/><br/>As a result of maintenance work on the new route section between Berne and Olten  trains between Berne and Olten will be diverted via the older routes from 22:30 until 05:55. This will increase the journey time by approximately 12 minutes. Please note your connecting trains (and allow 30 minutes' extra travel time compared with the regular timetable).<br/><br/>The maintenance work will be from the: <br/>26.10.2013 17:30 - 28.10.2013 05:55. <br/> <br/>Please listen to the loudspeaker announcements in the train.<br/>Please note the information at the station.<br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=715826&amp;hMap=false&amp;</link>
+<pubDate>Mon, 28 Jan 2013 12:45:32 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage715826</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: EN 467 Zürich HB - Budapest-Keleti]]></title>
+<description><![CDATA[26.04.2013 - 20.05.2013 13:00<br/><br/>Travel advice: EN 467 from Zürich HB departure 22:40 via Sargans 23:37 - Buchs SG 23:58 - Feldkirch 00:16 - Innsbruck Hbf 02:17 - Salzburg Hbf 04:34 - Linz/Donau Hbf 06:04 - St. Pölten 07:01 - Wien Westbahnhof 07:56 - to Budapest-Keleti arrival 10:49 is being rerouted. <br/><br/>The EN 467 train is being rerouted. <br/>The train does not stop in Salzburg Hbf. <br/>The EN 467 train makes an unscheduled stop in Salzburg Süd. <br/><br/>The total travelling time is extended by 70 minutes. Please pay attention to the changed departure and arrival times. <br/><br/>Reason: Construction work <br/><br/>Duration at 04./05.05. + 05./06.05. + 11./12.05. + 12./13.05. + 18./19.05. + 19./20.05.2013 . <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717624&amp;hMap=false&amp;</link>
+<pubDate>Sun, 27 Jan 2013 22:07:51 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717624</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Travel advice: EN 466 Budapest-Keleti - Zürich HB]]></title>
+<description><![CDATA[26.04.2013 - 20.05.2013 09:30<br/><br/>Travel advice: EN 466 from Budapest-Keleti departure 19:10 via Hegyeshalom 21:02 - Wien Westbahnhof 22:40 - St. Pölten 23:09 - Linz/Donau Hbf 00:05 - Salzburg Hbf 01:40 - Innsbruck Hbf 03:40 - Bludenz 05:26 - Feldkirch 05:45 - Buchs SG - Sargans to Zürich HB arrival 07:20 is being rerouted. <br/><br/>The EN 466 train is being rerouted. <br/>The train does not stop in Salzburg Hbf. <br/>The EN 466 train makes an unscheduled stop in Salzburg Süd. <br/><br/>The total travelling time is extended by 70 minutes. Please pay attention to the changed departure and arrival times. <br/><br/>Reason: Construction work <br/><br/>Duration at 04./05.05. + 05./06.05. + 11./12.05. + 12./13.05. + 18./19.05 + 19./20.05.2013 . <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717211&amp;hMap=false&amp;</link>
+<pubDate>Sun, 27 Jan 2013 22:05:21 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717211</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">0</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Montbovon - Allières (MOB)]]></title>
+<description><![CDATA[28.01.2013 21:00 - 27.06.2013<br/><br/>Construction work: Between Montbovon and Allières on the Zweisimmen - Montreux line, no train services are operating.<br/><br/> Trains R Zweisimmen - Montreux are cancelled between Montbovon and Les Avants.<br/><br/> Replacement bus services are operating Montbovon - direct - Montreux.<br/> The train/bus connections are guaranteed.<br/><br/> The transportation of bicycles is excluded.<br/> The transportation of wheel chairs is excluded.<br/><br/> Duration of construction work from 28.01.2013 until 27.06.2013 from 21:00 until close of services.<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=717451&amp;hMap=false&amp;</link>
+<pubDate>Thu, 24 Jan 2013 17:46:05 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage717451</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Rotkreuz - Cham (SBB CFF FFS)]]></title>
+<description><![CDATA[01.06.2013 01:00 - 17.06.2013 05:00<br/><br/>Construction work: Between Rotkreuz and Cham only limited train services are operating. <br/><br/>The long-distance trains IR Luzern - Zürich HB / Zürich Flughafen are partly being rerouted. <br/>S-Bahn trains S1 Luzern - Baar are cancelled between Rotkreuz and Cham. <br/>Replacement bus services are operating Rotkreuz - Cham. <br/>Please allow for a longer travelling time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work from 01.06.2013 01:00 until 03.06.2013 05:00. <br/>Duration of construction work from 08.06.2013 01:00 until 10.06.2013 05:00. <br/>Duration of construction work from 15.06.2013 01:00 until 17.06.2013 05:00. <br/><br/>The online timetable at www.sbb.ch will be changed. <br/>Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716470&amp;hMap=false&amp;</link>
+<pubDate>Wed, 16 Jan 2013 19:27:45 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716470</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Rotkreuz - Cham (SBB CFF FFS)]]></title>
+<description><![CDATA[25.05.2013 17:00 - 27.05.2013 05:00<br/><br/>Construction work: Between Rotkreuz and Cham only limited train services are operating. <br/><br/>The long-distance trains IR Luzern - Zürich HB / Zürich Flughafen are partly being rerouted. <br/>S-Bahn trains S1 Luzern - Baar are cancelled between Rotkreuz and Cham. <br/>Replacement bus services are operating Rotkreuz - Cham. <br/>Please allow for a longer travelling time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work from 25.05.2013 17:00 until 27.05.2013 05:00. <br/><br/>The online timetable at www.sbb.ch will be changed. <br/>Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716522&amp;hMap=false&amp;</link>
+<pubDate>Wed, 16 Jan 2013 19:25:47 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716522</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Marthalen - Andelfingen (THURBO)]]></title>
+<description><![CDATA[04.05.2013 00:30 - 06.05.2013 05:20<br/><br/>Construction work: Between Marthalen and Andelfingen on the Schaffhausen - Winterthur line, no train services are operating. <br/><br/>S-Bahn trains S16 + S33 are cancelled between Marthalen and Andelfingen. <br/><br/>Replacement bus services are operating Marthalen - Andelfingen. <br/>Please pay attention to the changed departure and arrival times. <br/>The bus/train connections are guaranteed in Marthalen and Andelfingen. <br/>Please allow for a longer travelling time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work from 04.05.2013 00:30 until 06.05.2013 05:20. <br/><br/>The online timetable at www.sbb.ch will be changed. <br/><br/>Please listen to the loudspeaker announcements in the train. <br/>Please note the information at the station. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716465&amp;hMap=false&amp;</link>
+<pubDate>Wed, 16 Jan 2013 07:27:04 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716465</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Aarau - Unterentfelden Post (WSB)]]></title>
+<description><![CDATA[25.03.2013 21:10 - 27.03.2013<br/><br/>Construction work: Between Aarau and Unterentfelden Post on the Aarau - Schöftland line, no train services are operating. <br/><br/>S-Bahn trains S14 Aarau - Schöftland are cancelled between Aarau and Unterentfelden Post. <br/>Replacement bus services are operating Aarau - Unterentfelden. <br/>A replacement bus service is operating from 00:12 Aarau - Schöftland. <br/><br/>Connections in Aarau to Unterentfelden Post are provided. <br/>Connections in Aarau (SBB AG) are not guaranteed. <br/>Connections in Schöftland (PostAuto PEAG) are not guaranteed. <br/>Please allow for a longer travelling time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work from 25.03.2013 until 27.03.2013 from 21:10 until close of services. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. <br/><br/>Please note the information at the station. <br/>Please listen to the loudspeaker announcements in the train. <br/><a href="http://fahrplan.sbb.ch/him/1357903781666_0304-0327 Bau Aarau - Schöftland.pdf">Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716207&amp;hMap=false&amp;</link>
+<pubDate>Fri, 11 Jan 2013 15:20:18 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716207</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Aarau - Unterentfelden Post (WSB)]]></title>
+<description><![CDATA[04.03.2013 21:10 - 21.03.2013<br/><br/>Construction work: Between Aarau and Unterentfelden Post on the Aarau - Schöftland line, no train services are operating. <br/><br/>S-Bahn trains S14 Aarau - Schöftland are cancelled between Aarau and Unterentfelden Post. <br/>Replacement bus services are operating Aarau - Unterentfelden. <br/>A replacement bus service is operating from 00:12 Aarau - Schöftland. <br/><br/>Connections in Aarau to Unterentfelden Post are provided. <br/>Connections in Aarau (SBB AG) are not guaranteed. <br/>Connections in Schöftland (PostAuto PEAG) are not guaranteed. <br/>Please allow for a longer travelling time. <br/><br/>The transportation of bicycles is excluded. <br/><br/>Duration of construction work from:<br/>04.03.2013 - 07.03.2013<br/>11.03.2013 - 14.03.2013<br/>18.03.2013 - 21.03.2013  from 21:10 until close of services. <br/><br/>The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. <br/><br/>Please note the information at the station. <br/>Please listen to the loudspeaker announcements in the train. <br/><a href="http://fahrplan.sbb.ch/him/1357903384785_0304-0327 Bau Aarau - Schöftland.pdf">Bus</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=716206&amp;hMap=false&amp;</link>
+<pubDate>Fri, 11 Jan 2013 15:19:33 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage716206</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Aarau - Rupperswil (SBB CFF FFS)]]></title>
+<description><![CDATA[24.03.2013 - 03.06.2013<br/><br/>Construction work: Between Aarau and Rupperswil on the Olten - Zürich HB line, only limited train services are operating.<br/><br/> Delays, train cancellations and reroutings are expected.<br/><br/> Duration of construction work from 24.03.2013 until 24.03.2013 from 12:00 until close of services.<br/> Duration of construction work from 30.03.2013 until 01.04.2013 from 12:00 until close of services.<br/> Duration of construction work from 18.05.2013 until 20.05.2013 from 12:00 until close of services.<br/> Duration of construction work from 02.06.2013 until 02.06.2013 from 12:00 until close of services.<br/><br/> The online timetable at www.sbb.ch will be changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=715069&amp;hMap=false&amp;</link>
+<pubDate>Fri, 21 Dec 2012 18:45:59 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage715069</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Dachsen - Neuhausen (SBB CFF FFS)]]></title>
+<description><![CDATA[12.08.2013 05:00 - 18.09.2013<br/><br/>Construction work: Between Dachsen and Neuhausen on the Winterthur - Schaffhausen line, no train services are operating.<br/><br/> Replacement bus services are operating Dachsen - Schloss Laufen - Schaffhausen Busbahnhof.<br/><br/> Duration of construction work from 12.08.2013 05:00 until 18.09.2013 close of services.<br/><br/> Please note the information at the station.<br/> The online timetable at www.sbb.ch has been changed. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=712006&amp;hMap=false&amp;</link>
+<pubDate>Fri, 30 Nov 2012 00:44:03 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage712006</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: München Hbf - Memmingen (DB)]]></title>
+<description><![CDATA[04.05.2013 07:00 - 05.05.2013 20:00<br/><br/>Construction work: Between München Hbf and Memmingen only limited train services are operating.<br/><br/> The international trains EC 194 / EC 192 / EC 190 + EC 191 / EC 193 / EC 195 are being rerouted.<br/> The station Memmingen is not serviced.<br/> Please allow for approx. 20 minutes more travel time.<br/><br/> Connections in CH + D are not guaranteed.<br/><br/> Duration of construction work from 04.05.2013 until 05.05.2013 .<br/><br/> The online timetable at www.sbb.ch has not been changed. Please pay attention to the information in this announcement. ]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=701739&amp;hMap=false&amp;</link>
+<pubDate>Thu, 22 Nov 2012 13:51:29 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage701739</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+<item>
+<title><![CDATA[Construction work: Unterzollikofen, Bahnhof - Zollikofen, Hirzenfeld (RBS)]]></title>
+<description><![CDATA[30.07.2012 04:00 - 01.05.2013<br/><br/>Construction work RBS: The bus service 34 between Unterzollikofen, Bahnhof and Zollikofen, Hirzenfeld is limited. <br/><br/>The buses line 34 are being rerouted via Zollikofen, Betagtenheim. <br/>The station Kreuz is not serviced. <br/>The station Schulhaus Ost is not serviced. <br/><br/>Duration of construction work from 30.07.2012 04:00 until 01.05.2013. <br/><a href="http://www.rbs.ch/aktuelles/linie-34-schulhausstrasse-f-r-verkehr-gesperrt-umleitungen">Info RBS Linie 34</a><br/>]]></description>
+<link>http://fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&amp;messageID=702565&amp;hMap=false&amp;</link>
+<pubDate>Thu, 25 Oct 2012 20:27:26 +0100</pubDate>
+<guid isPermaLink="false">http://mct.sbb.ch/mct/en/betriebslage702565</guid>
+<dc:creator>SBB</dc:creator>
+<category domain="icon">1</category>
+</item>
+</channel>
+</rss>

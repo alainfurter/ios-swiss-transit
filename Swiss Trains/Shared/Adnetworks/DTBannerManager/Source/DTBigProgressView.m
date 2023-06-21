@@ -1,0 +1,241 @@
+//
+//  BigProgressView.m
+//  ELO
+//
+//  Created by Oliver on 02.09.09.
+//  Copyright 2009 Drobnik.com. All rights reserved.
+//
+
+#import "DTBigProgressView.h"
+#import <QuartzCore/QuartzCore.h>
+
+
+#define PROGRESS_WIDTH 150.0
+#define PROGRESS_HEIGHT 150.0
+
+
+
+@interface DTBigProgressView () // private
+
+@property(nonatomic, retain) UILabel *textLabel;
+
+@end
+
+
+
+@implementation DTBigProgressView
+
+@synthesize text, textLabel, imageView, progressImage, resultImage, fadeOutDelay;
+
+- (id)initWithView:(UIView *)view 
+{
+	CGRect frame = view.bounds;
+	_viewToBlock = view;
+	
+	
+	if (self = [super initWithFrame:frame]) 
+	{
+		// whole view darkening view
+		
+		self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+		
+		self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.4];
+		self.userInteractionEnabled = YES;
+		self.exclusiveTouch = YES;
+		
+		CGRect grayViewRect = CGRectMake((frame.size.width - PROGRESS_WIDTH)/2.0, 
+										 (frame.size.height - PROGRESS_HEIGHT)/2.0,
+										 PROGRESS_WIDTH, PROGRESS_HEIGHT);
+		grayView = [[UIView  alloc] initWithFrame:grayViewRect];
+		grayView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
+		grayView.opaque = NO;
+		grayView.layer.cornerRadius = 10.0;
+		grayView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+		[self addSubview:grayView];
+		
+		
+		actView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+		CGSize actSize = [actView sizeThatFits:CGSizeZero];
+		actView.frame = CGRectMake((grayView.bounds.size.width - actSize.width)/2.0, 
+								   (grayView.bounds.size.height - actSize.height)/2.0,
+								   actSize.width, actSize.height);
+		actView.hidesWhenStopped = YES;
+		[grayView addSubview:actView];
+		
+		
+		
+		
+		textLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 
+															 0 +
+															  grayView.frame.size.height - 30.0, 
+															  grayView.frame.size.width-20.0,
+															  20.0)];
+		[grayView addSubview:textLabel];
+		textLabel.text = @"Please wait ...";
+		textLabel.textColor = [UIColor whiteColor];
+		textLabel.shadowColor = [UIColor blackColor];
+		textLabel.shadowOffset = CGSizeMake(1, 1);
+		textLabel.font = [UIFont boldSystemFontOfSize:13.0];
+		textLabel.backgroundColor = [UIColor clearColor];
+		textLabel.textAlignment = NSTextAlignmentCenter;
+		textLabel.adjustsFontSizeToFitWidth = YES;
+		textLabel.minimumFontSize = 8.0;
+		
+		self.opaque = NO;
+		
+		// fadeout default
+		fadeOutDelay = 2.0;
+		
+		CGRect frame = self.bounds;
+		grayView.frame = CGRectMake((frame.size.width - PROGRESS_WIDTH)/2.0, 
+									(frame.size.height - PROGRESS_HEIGHT)/2.0,
+									PROGRESS_WIDTH, PROGRESS_HEIGHT);
+		
+		
+		imageView = [[UIImageView alloc] initWithFrame:grayView.bounds];
+		imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+		imageView.contentMode = UIViewContentModeCenter;
+		[grayView addSubview:imageView];
+		
+    }
+    return self;
+}
+
+- (void)layoutSubviews
+{
+	[super layoutSubviews];
+}
+
+#pragma mark Properties
+
+- (void) setText:(NSString *)newText
+{
+	text = newText;
+	textLabel.text = text;
+}
+
+
+#pragma mark Showing / Hiding
+- (void) animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+{
+	[self removeFromSuperview];
+}
+
+
+- (void)hide
+{
+	grayView.transform = CGAffineTransformIdentity;
+	
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+
+	//[UIView setAnimationDuration:2.0];
+	
+	grayView.transform = CGAffineTransformMakeScale(1.3, 1.3);
+	self.alpha = 0;
+	
+	[UIView commitAnimations];	
+	
+	
+}
+
+- (void)hideAfterDelay
+{
+	if (fadeOutDelay>0)
+	{
+		[self performSelector:@selector(hide) withObject:nil afterDelay:fadeOutDelay];
+	}
+	else 
+	{
+		[self performSelector:@selector(hide) withObject:nil afterDelay:0.5];
+	}
+}
+
+- (void)showAnimationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+{
+	_showingInProgress = NO;
+	
+	if (_hideImmediatelyAfterShowing)
+	{
+		[self show:NO];
+	}
+}
+
+
+- (void)show:(BOOL)show
+{
+	_isShowing = show;
+	
+	if (show)
+	{
+		if (_showingInProgress)
+		{
+			// presenting animation already in progress
+			return;
+		}
+		
+		[_viewToBlock addSubview:self];
+		
+		grayView.transform = CGAffineTransformMakeScale(0.7, 0.7);
+		self.alpha = 0;
+	
+		if (progressImage)
+		{
+			[actView stopAnimating];
+		}
+		else 
+		{
+			[actView startAnimating];
+		}
+
+		imageView.image = progressImage;
+
+		_showingInProgress = YES;
+		
+		[UIView beginAnimations:nil context:nil];
+		[UIView setAnimationBeginsFromCurrentState:YES];
+		[UIView setAnimationDelegate:self];
+		[UIView setAnimationDidStopSelector:@selector(showAnimationDidStop:finished:context:)];
+		//[UIView setAnimationDuration:2.0];
+	
+		grayView.transform = CGAffineTransformIdentity;
+		self.alpha = 1;
+	
+		[UIView commitAnimations];
+	}
+	else
+	{
+		if (_showingInProgress)
+		{
+			// presenting animation already in progress
+			
+			// defer hiding
+			_hideImmediatelyAfterShowing = YES;
+			return;			
+		}
+		
+		grayView.transform = CGAffineTransformIdentity;
+		[actView stopAnimating];
+		
+		imageView.image = resultImage;
+		self.alpha = 1;
+
+		
+		[self performSelectorOnMainThread:@selector(hideAfterDelay) withObject:nil waitUntilDone:NO];
+	}
+}
+
+- (void)showMessage:(NSString *)message withImage:(UIImage *)image
+{
+	self.text = message;
+	self.progressImage = image;
+	self.resultImage = image;
+	self.fadeOutDelay = 1;
+	
+	[self show:YES];
+	[self show:NO];
+}
+
+@end

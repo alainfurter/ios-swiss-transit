@@ -1,0 +1,94 @@
+//
+//  DTBannerManager.h
+//  GeoCorder
+//
+//  Created by Oliver Drobnik on 7/29/10.
+//  Copyright 2010 Drobnik.com. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import "DTBannerManagerConfig.h"
+
+#import <iAd/iAd.h>
+#import "GADBannerViewDelegate.h"
+#import "GADBannerView.h"
+
+#import "UITableViewController+Ads.h"
+#import "DTBannerClipView.h"
+
+#import "MobFoxBannerView.h"
+
+typedef enum
+{
+	BannerModeNoAds = 0,  // default
+	BannerModeAdMob = 1,
+	BannerModeApple = 2,
+	BannerModeMobFox = 3,
+	BannerModeAllFailed = 99
+} BannerMode;
+
+
+@class DTBannerManager;
+@class MobFoxBannerView;
+
+@protocol DTBannerManagerDelegate <NSObject>
+
+@optional
+
+- (void)bannerManagerDidPushPurchaseButton:(DTBannerManager *)bannerManager;
+- (void)bannerManagerWillExecuteBannerAction:(DTBannerManager *)bannerManager willLeaveApplication:(BOOL)willLeave;
+- (void)bannerManagerDidFinishBannerAction:(DTBannerManager *)bannerManager;
+
+@end
+
+
+@interface DTBannerManager : NSObject <ADBannerViewDelegate, GADBannerViewDelegate, MobFoxBannerViewDelegate>
+{
+	UIViewController *viewControllerWithBanner;
+	DTBannerClipView *bannerClipView;
+	
+	// iAd
+	ADBannerView *iAdBannerView;
+	BOOL iAdBannerShowing;
+	
+	// AdMob
+	GADBannerView *adMobBannerView;
+	NSTimer *refreshTimer;
+	BOOL adMobBannerShowing;
+	
+	// mobFox
+	MobFoxBannerView *mobfoxBannerView;
+	BOOL mobFoxBannerShowing;
+	
+	BannerMode _bannerMode;
+	__unsafe_unretained id <DTBannerManagerDelegate> _delegate; 
+}
+
+@property (nonatomic, retain) UIViewController *viewControllerWithBanner;
+@property (nonatomic, assign) BannerMode bannerMode;
+
+@property (nonatomic, retain) DTBannerClipView *bannerClipView;
+
+@property (nonatomic, retain) ADBannerView *iAdBannerView;
+@property (nonatomic, retain) GADBannerView *adMobBannerView;
+@property (nonatomic, retain) MobFoxBannerView *mobfoxBannerView;
+
+@property (nonatomic, assign) __unsafe_unretained id <DTBannerManagerDelegate> delegate;
+
+
++ (DTBannerManager *)sharedManager;
+
+- (void)addAdsToViewController:(UIViewController *)viewController;
+- (void)removeAds;
+
+- (BOOL)isBannerVisible;
+
+- (BOOL)mobFoxSupported;
+- (BOOL)iAdsSupported;
+- (BOOL)adMobSupported;
+
+- (void)setDefaultBannerMode;
+- (BannerMode)nextBannerNetworkAfterCurrent;
+
+@end

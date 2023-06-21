@@ -1,0 +1,3 @@
+0|ID1616|Affoltern i.E., Dorf|BLS|BLS/Autvhb|Automobildienste BLS AG (vhb Auto)|BLS AG|30|Strasse|Affoltern im Emmental|BE|803|47.0656125462794|7.73450139974051|UN||ID1616|FINAL
+0|ID11616|Aetingen, Fröscheren|PAG|PAG|PostAuto Schweiz|PostAuto Schweiz AG|30|Strasse|Aetingen|SO|483|47.123546926665|7.49596304351109|UN||ID11616|FINAL
+0|ID21616|Plan-les-Ouates, Sac.-A.-La Tour|TPG|TPG|Transports Publics Genevois|Transports publics genevois (TPG)|30|Strasse|Plan-les-Ouates|GE|439|46.15986000|6.12502400|UN||ID21616|FINAL

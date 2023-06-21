@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C3012" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="A" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="aTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toA" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="B" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="bTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toB" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="C" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="cTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toC" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="D" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="dTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toD" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="E" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="eTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toE" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="F" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="fTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toF" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="G" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="gTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toG" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="H" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="hTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toH" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="I" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="iTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toI" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="J" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="jTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toJ" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="K" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="kTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toK" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="L" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="lTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toL" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="M" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="mTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toM" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="N" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="nTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toN" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="NUMS" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="numsTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toNums" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="O" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="oTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toO" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="P" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="pTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toP" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="Q" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="qTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toQ" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="R" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="rTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toR" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="S" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="sTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toS" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="Stations" representedClassName="Stations" syncable="YES">
+        <attribute name="dataquality" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="elevation" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="externalid" attributeType="String" minValueString="1" maxValueString="15" syncable="YES"/>
+        <attribute name="firstlettercode" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="latitude" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="stationname" attributeType="String" minValueString="1" maxValueString="60" syncable="YES"/>
+        <attribute name="transportcode" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="toA" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="A" inverseName="aTo" inverseEntity="A" syncable="YES"/>
+        <relationship name="toB" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="B" inverseName="bTo" inverseEntity="B" syncable="YES"/>
+        <relationship name="toC" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="C" inverseName="cTo" inverseEntity="C" syncable="YES"/>
+        <relationship name="toD" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="D" inverseName="dTo" inverseEntity="D" syncable="YES"/>
+        <relationship name="toE" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="E" inverseName="eTo" inverseEntity="E" syncable="YES"/>
+        <relationship name="toF" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="F" inverseName="fTo" inverseEntity="F" syncable="YES"/>
+        <relationship name="toG" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="G" inverseName="gTo" inverseEntity="G" syncable="YES"/>
+        <relationship name="toH" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="H" inverseName="hTo" inverseEntity="H" syncable="YES"/>
+        <relationship name="toI" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="I" inverseName="iTo" inverseEntity="I" syncable="YES"/>
+        <relationship name="toJ" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="J" inverseName="jTo" inverseEntity="J" syncable="YES"/>
+        <relationship name="toK" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="K" inverseName="kTo" inverseEntity="K" syncable="YES"/>
+        <relationship name="toL" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="L" inverseName="lTo" inverseEntity="L" syncable="YES"/>
+        <relationship name="toM" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="M" inverseName="mTo" inverseEntity="M" syncable="YES"/>
+        <relationship name="toN" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="N" inverseName="nTo" inverseEntity="N" syncable="YES"/>
+        <relationship name="toNums" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="NUMS" inverseName="numsTo" inverseEntity="NUMS" syncable="YES"/>
+        <relationship name="toO" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="O" inverseName="oTo" inverseEntity="O" syncable="YES"/>
+        <relationship name="toP" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="P" inverseName="pTo" inverseEntity="P" syncable="YES"/>
+        <relationship name="toQ" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="Q" inverseName="qTo" inverseEntity="Q" syncable="YES"/>
+        <relationship name="toR" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="R" inverseName="rTo" inverseEntity="R" syncable="YES"/>
+        <relationship name="toS" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="S" inverseName="sTo" inverseEntity="S" syncable="YES"/>
+        <relationship name="toT" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="T" inverseName="tTo" inverseEntity="T" syncable="YES"/>
+        <relationship name="toU" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="U" inverseName="uTo" inverseEntity="U" syncable="YES"/>
+        <relationship name="toV" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="V" inverseName="vTo" inverseEntity="V" syncable="YES"/>
+        <relationship name="toW" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="W" inverseName="wTo" inverseEntity="W" syncable="YES"/>
+        <relationship name="toX" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="X" inverseName="xTo" inverseEntity="X" syncable="YES"/>
+        <relationship name="toY" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="Y" inverseName="yTo" inverseEntity="Y" syncable="YES"/>
+        <relationship name="toZ" optional="YES" toMany="YES" minCount="1" maxCount="6" deletionRule="Nullify" destinationEntity="Z" inverseName="zTo" inverseEntity="Z" syncable="YES"/>
+    </entity>
+    <entity name="T" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="tTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toT" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="U" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="uTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toU" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="V" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="vTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toV" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="W" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="wTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toW" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="X" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="xTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toX" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="Y" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="yTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toY" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <entity name="Z" syncable="YES">
+        <attribute name="sn" attributeType="String" minValueString="1" maxValueString="60" indexed="YES" syncable="YES"/>
+        <attribute name="snp" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="zTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stations" inverseName="toZ" inverseEntity="Stations" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="A" positionX="-333" positionY="774" width="128" height="90"/>
+        <element name="B" positionX="-405" positionY="639" width="128" height="90"/>
+        <element name="C" positionX="-414" positionY="549" width="128" height="90"/>
+        <element name="D" positionX="-414" positionY="465" width="128" height="90"/>
+        <element name="E" positionX="-414" positionY="375" width="128" height="90"/>
+        <element name="F" positionX="-414" positionY="279" width="128" height="90"/>
+        <element name="G" positionX="-414" positionY="171" width="128" height="90"/>
+        <element name="H" positionX="-423" positionY="81" width="128" height="90"/>
+        <element name="I" positionX="-423" positionY="-18" width="128" height="90"/>
+        <element name="J" positionX="-342" positionY="-117" width="128" height="90"/>
+        <element name="K" positionX="-290" positionY="-207" width="128" height="90"/>
+        <element name="L" positionX="-146" positionY="-273" width="128" height="90"/>
+        <element name="M" positionX="-2" positionY="-318" width="128" height="90"/>
+        <element name="N" positionX="135" positionY="-333" width="128" height="90"/>
+        <element name="NUMS" positionX="115" positionY="879" width="128" height="90"/>
+        <element name="O" positionX="286" positionY="-333" width="128" height="90"/>
+        <element name="P" positionX="414" positionY="-252" width="128" height="90"/>
+        <element name="Q" positionX="493" positionY="-144" width="128" height="90"/>
+        <element name="R" positionX="495" positionY="-30" width="128" height="90"/>
+        <element name="S" positionX="502" positionY="81" width="128" height="90"/>
+        <element name="Stations" positionX="160" positionY="165" width="128" height="570"/>
+        <element name="T" positionX="502" positionY="180" width="128" height="90"/>
+        <element name="U" positionX="502" positionY="303" width="128" height="90"/>
+        <element name="V" positionX="504" positionY="393" width="128" height="90"/>
+        <element name="W" positionX="-92" positionY="819" width="128" height="90"/>
+        <element name="X" positionX="268" positionY="891" width="128" height="90"/>
+        <element name="Y" positionX="331" positionY="756" width="128" height="90"/>
+        <element name="Z" positionX="520" positionY="630" width="128" height="90"/>
+    </elements>
+</model>

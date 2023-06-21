@@ -1,0 +1,284 @@
+//
+//  DTShop.m
+//  IR
+//
+//  Created by Oliver Drobnik on 2/5/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "DTShop.h"
+#import <StoreKit/StoreKit.h>
+
+static DTShop * _sharedShop;
+
+
+#if defined __arm__ || defined __thumb__
+#undef TARGET_IPHONE_SIMULATOR
+#ifndef TARGET_OS_IPHONE
+#define TARGET_OS_IPHONE
+#endif
+#else
+#define TARGET_IPHONE_SIMULATOR 1
+#undef TARGET_OS_IPHONE
+#endif
+
+
+
+@implementation DTShop
+
+
++ (DTShop *)sharedShop
+{
+	if (!_sharedShop)
+	{
+		_sharedShop = [[DTShop alloc] init];
+	}
+	
+	return _sharedShop;
+}
+
+- (void)simulateShopOpening
+{
+	simulatedOpen = YES;
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopNowOpen" object:nil];	
+}
+
+- (id) init
+{
+	if (self = [super init])
+	{
+		// get installed SKUs
+		
+		
+		
+		skus = [NSMutableSet setWithArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"SKUs"]];
+		
+		if (!skus)
+		{
+			skus = [[NSMutableSet alloc] init];
+		}
+		
+		// prepare shop
+		
+		if ([SKPaymentQueue canMakePayments])
+		{
+			NSString *path = [[NSBundle mainBundle] pathForResource:@"iap_products" ofType:@"plist"];
+			NSArray *productsArray = [NSArray arrayWithContentsOfFile:path];
+			
+			
+			// cannot autorelease, otherwise no response
+			NSSet *possibleProducts = [NSSet setWithArray:productsArray];
+			myProdRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:possibleProducts];
+			myProdRequest.delegate = self;
+			[myProdRequest start];
+			
+			[[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+		}
+		
+	}
+	
+	
+	return self;
+}
+
+- (BOOL) isProductInstalledWithSKU:(NSString *)sku
+{
+	return [skus containsObject:sku];
+}
+
+- (void) installProductWithSKU:(NSString *)sku
+{
+	[skus addObject:sku];
+	
+	[[NSUserDefaults standardUserDefaults] setObject:[skus allObjects] forKey:@"SKUs"];
+	
+	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:sku forKey:@"SKU"];
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopProductPurchased" object:nil userInfo:userInfo];
+	
+#ifdef TARGET_IPHONE_SIMULATOR
+	simulatedPurchaseSKU = nil;
+#endif
+}
+
+- (void) simulateCancelPurchase:(NSString *)sku
+{
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopPurchaseCancelled" object:nil];
+	simulatedPurchaseSKU = nil;
+}
+
+
+- (void) purchaseProductWithSKU:(NSString *)sku
+{
+#ifdef TARGET_IPHONE_SIMULATOR
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Simulated Purchase" message:@"On Simulator you can simulate a cancel or ok." delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+	[alert show];
+	
+	simulatedPurchaseSKU = sku;
+	
+#else
+	SKProduct *product = [self productForSKU:sku];
+	
+	if (product)
+	{
+		SKPayment *payment = [SKPayment paymentWithProduct:product];
+		[[SKPaymentQueue defaultQueue] addPayment:payment];
+	}
+	else
+	{
+		NSLog(@"Invalid Product ID %@", sku);
+	}
+	
+#endif
+}
+
+- (void) restorePurchases
+{
+#ifdef TARGET_IPHONE_SIMULATOR
+	[self performSelector:@selector(simulateCancelPurchase:) withObject:nil afterDelay:3.0];
+	return;
+#else
+	[[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
+#endif
+}
+
+- (SKProduct *)productForSKU:(NSString *)sku
+{
+	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"productIdentifier = %@", sku];
+	NSArray *found = [purchasableProducts filteredArrayUsingPredicate:predicate];
+	
+	if ([found count]==1)
+	{
+		return [found lastObject];
+	}
+	
+	return nil;
+}
+
+- (NSString *)localizedPriceForProductWithSKU:(NSString *)sku
+{
+#ifdef TARGET_IPHONE_SIMULATOR
+	return @"€ 0.72";
+#else
+	SKProduct *product = [self productForSKU:sku];
+	
+	if (product) 
+	{
+		NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+		[numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+		[numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+		[numberFormatter setLocale:product.priceLocale];
+		
+		return [numberFormatter stringFromNumber:product.price];
+	}
+	else
+	{
+		NSLog(@"Invalid Product ID %@", sku);
+		return nil;
+	}
+#endif
+}
+
+- (NSString *)localizedNameForProductWithSKU:(NSString *)sku
+{
+#ifdef TARGET_IPHONE_SIMULATOR
+	return [NSString stringWithFormat:@"Localized '%@'", sku];;
+#else
+	SKProduct *product = [self productForSKU:sku];
+	
+	if (product) 
+	{
+		return [product localizedTitle];
+	}
+	else
+	{
+		NSLog(@"Invalid Product ID %@", sku);
+		return nil;
+	}
+#endif
+}
+
+
+- (void) failedTransaction: (SKPaymentTransaction *)transaction
+{
+    if (transaction.error.code != SKErrorPaymentCancelled)
+    {
+        // Optionally, display an error here.
+    }
+    [[SKPaymentQueue defaultQueue] finishTransaction: transaction];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopPurchaseCancelled" object:nil];
+}
+
+- (BOOL) isReadyForPurchasing
+{
+#ifdef TARGET_IPHONE_SIMULATOR
+	if (!simulatedOpen)
+	{
+		[NSObject cancelPreviousPerformRequestsWithTarget:self];
+		[self performSelector:@selector(simulateShopOpening) withObject:nil afterDelay:5.0];
+	}
+	
+	return simulatedOpen;
+#else	
+	return [SKPaymentQueue canMakePayments] && purchasableProducts!=nil;
+#endif
+}
+
+
+#pragma mark Product Request Delegate
+- (void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response
+{
+	purchasableProducts = [response products];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopNowOpen" object:nil];
+}
+
+- (void)paymentQueue:(SKPaymentQueue *)queue restoreCompletedTransactionsFailedWithError:(NSError *)error
+{
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"DTShopPurchaseCancelled" object:nil];
+}
+
+#pragma mark Payment Queue Delegate
+- (void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions
+{
+    for (SKPaymentTransaction *transaction in transactions)
+    {
+        switch (transaction.transactionState)
+        {
+            case SKPaymentTransactionStatePurchased:
+				[self installProductWithSKU:transaction.payment.productIdentifier];
+				[queue finishTransaction:transaction];
+                break;
+            case SKPaymentTransactionStateFailed:
+				[self failedTransaction:transaction];
+                break;
+            case SKPaymentTransactionStateRestored:
+				[self installProductWithSKU:transaction.payment.productIdentifier];
+				[queue finishTransaction:transaction];
+			case SKPaymentTransactionStatePurchasing:
+				NSLog(@"Purchasing Transaction");
+				break;
+            default:
+				NSLog(@"Transaction State: %d", transaction.transactionState);
+                break;
+        }
+    }
+}
+
+
+
+#ifdef TARGET_IPHONE_SIMULATOR
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if (buttonIndex==0) // cancel 
+	{
+		[self performSelector:@selector(simulateCancelPurchase:) withObject:simulatedPurchaseSKU afterDelay:1.0];
+	}
+	else // purchase made
+	{
+		[self performSelector:@selector(installProductWithSKU:) withObject:simulatedPurchaseSKU afterDelay:1.0];
+	}
+}
+#endif
+
+@end

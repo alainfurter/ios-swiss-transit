@@ -1,0 +1,49 @@
+
+"SHOW_INTRO_TIT"        = "Introvideo anzeigen";
+
+"MUL_VALUE_TITLE"       = "Fehler melden";
+
+"TEXT_FIELD_TITLE"      = "Empfehlen";
+
+"ADVANCED_TITLE"        = "Fortgeschritten";
+
+"VERSION"               = "Version";
+"HELP"                  = "Hilfe";
+"ABOUT" 				= "Über";
+
+"APPLICATION_INFO_TITLE"= "App Informationen";
+
+"EMPTY" 				= "";
+
+"RATE_IT_TIT"           = "Im App Store bewerten";
+"INSTRUCT_TIT"          = "Anleitung";
+"TELLAFRIEND_TIT"       = "Einem Freund empfehlen";
+"STATION_TIT"           = "Haltestellenfehler melden";
+"APP_TIT"               = "Appfehler melden";
+
+"EMAIL_STATION_TIT" = "Haltestellenfehler: Swiss Transit";
+"EMAIL_APP_TIT" = "Fehler in der App: Swiss Transit";
+"EMAIL_SUPPORT_TIT" = "Swiss Transit Support";
+"EMAIL_TELLAFRIEND_TIT" = "Swiss Transit";
+
+/* ------------------------ V1.2 -------------------------------- */
+
+"ST_SEARCH_TITLE" = "Haltestellensuche";
+"ST_TOGGLE_SWITCH" = "Adressensuche";
+
+/* ------------------------ V2.0 -------------------------------- */
+
+"TRAIN_LINE_TITLE"      = "Zuglinien Details";
+"TR_DET_TITLE"          = "Einstellungen";
+
+"TR_DET_TOGGLE_TITLE"   = "Berechne detailierte Zuglinien";
+"TR_TOGGLE_SWITCH"      = "Berechne Zuglinien";
+"TR_DET_VALUES_TITLE"   = "Toleranz für Zuglinien";
+"TR_DET_MULTI_TITLE"    = "Toleranz";
+
+"ML_VAL_1"              = "Niedrige Toleranz / schneller";
+"ML_VAL_2"              = "Mittlere Toleranz / normal";
+"ML_VAL_3"              = "Hohe Toleranz / langsamer";
+"ML_VAL_ALL"            = "Keine Einschränkungen";
+
+"MULTIVALUE_FOOTER"     = "Bei höherer Toleranz werden eventuell mehr Zuglinien gefunden ist aber langsamer.";
